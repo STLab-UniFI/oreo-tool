@@ -1,0 +1,914 @@
+############################################################
+#################### START OF TIMELINE #####################
+############################################################
+
+
+################ STEP 0 ################
+# Started at: 17:11:23.221
+# Ended at: 17:11:23.397
+# Session: styKkIZn9QkjcNgpH-1ZLMZVY48_O8pPH22uu1WW
+#
+# Method calls: (20)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.services.AbstractService.findAll
+# - de.muellerbruehl.books.services.CategoryService.countBooksPerCategory
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.common.ReviewListController
+# - class de.muellerbruehl.books.helper.SessionTools
+#
+# Created instances: (3)
+# + class de.muellerbruehl.books.admin.CategoryEditor
+# + class de.muellerbruehl.books.common.ReviewListController
+# + class de.muellerbruehl.books.helper.SessionTools
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 0 #######################
+
+
+################ STEP 1 ################
+# Started at: 17:11:26.505
+# Ended at: 17:11:26.528
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (6)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.helper.SessionTools.changeLanguage
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.common.ReviewListController
+# - class de.muellerbruehl.books.helper.SessionTools
+#
+# Created instances: (3)
+# + class de.muellerbruehl.books.admin.CategoryEditor
+# + class de.muellerbruehl.books.common.ReviewListController
+# + class de.muellerbruehl.books.helper.SessionTools
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.common.ReviewListController
+#
+###################### END OF STEP 1 #######################
+
+
+################ STEP 2 ################
+# Started at: 17:11:26.532
+# Ended at: 17:11:26.573
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (18)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+#
+# Created instances: (1)
+# + class de.muellerbruehl.books.common.ReviewListController
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.common.ReviewListController
+#
+###################### END OF STEP 2 #######################
+
+
+################ STEP 3 ################
+# Started at: 17:11:27.899
+# Ended at: 17:11:27.926
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (8)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.setSearchText
+# - de.muellerbruehl.books.helper.SessionTools.navigate
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+#
+# Created instances: (1)
+# + class de.muellerbruehl.books.common.ReviewListController
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.common.ReviewListController
+#
+###################### END OF STEP 3 #######################
+
+
+################ STEP 4 ################
+# Started at: 17:11:27.932
+# Ended at: 17:11:27.948
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (16)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+#
+# Living instances: (2)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 4 #######################
+
+
+################ STEP 5 ################
+# Started at: 17:11:30.386
+# Ended at: 17:11:30.430
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (55)
+# - de.muellerbruehl.books.helper.SessionTools.getTemplate
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.common.BookListController.getBookList
+# - de.muellerbruehl.books.services.BookService.findAllBy
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.common.BookListController.getBookList
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.common.BookListController.getBookList
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.common.BookListController.getBookList
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.BookListController
+#
+# Created instances: (1)
+# + class de.muellerbruehl.books.common.BookListController
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.common.BookListController
+#
+###################### END OF STEP 5 #######################
+
+
+################ STEP 6 ################
+# Started at: 17:11:32.350
+# Ended at: 17:11:32.419
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (136)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.AbstractService.findAll
+# - de.muellerbruehl.books.services.AbstractService.find
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLocalShortText
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLocalShortText
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.admin.BookEditor
+#
+# Created instances: (1)
+# + class de.muellerbruehl.books.admin.BookEditor
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 6 #######################
+
+
+################ STEP 7 ################
+# Started at: 17:11:34.566
+# Ended at: 17:11:34.588
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (86)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.changeTab
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.admin.BookEditor
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 7 #######################
+
+
+################ STEP 8 ################
+# Started at: 17:11:52.157
+# Ended at: 17:11:52.191
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (142)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.changeTab
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLocalShortText
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLocalShortText
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.admin.BookEditor
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 8 #######################
+
+
+################ STEP 9 ################
+# Started at: 17:11:59.804
+# Ended at: 17:11:59.858
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (193)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLocalShortText
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.setLocalShortText
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.save
+# - de.muellerbruehl.books.helper.SessionTools.isInternalClient
+# - de.muellerbruehl.books.services.AbstractService.save
+# - de.muellerbruehl.books.services.AbstractService.clearCache
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLocalShortText
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.admin.BookEditor.getLocalShortText
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.admin.BookEditor.getBook
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.admin.BookEditor
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 9 #######################
+
+
+################ STEP 10 ################
+# Started at: 17:12:06.812
+# Ended at: 17:12:06.822
+# Session: SRkyIcozpakgDzCI1rMS1mQk9xCH1vWHV5WT58aa
+#
+# Method calls: (6)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.BookEditor.getTopics
+# - de.muellerbruehl.books.admin.BookEditor.getLanguages
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.setSearchText
+# - de.muellerbruehl.books.helper.SessionTools.navigate
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.admin.BookEditor
+#
+# Created instances: (0)
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.admin.BookEditor
+#
+###################### END OF STEP 10 #######################
+
+

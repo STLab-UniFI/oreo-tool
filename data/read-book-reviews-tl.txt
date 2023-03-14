@@ -1,0 +1,464 @@
+############################################################
+#################### START OF TIMELINE #####################
+############################################################
+
+
+################ STEP 0 ################
+# Started at: 16:50:08.080
+# Ended at: 16:50:08.089
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (20)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.services.AbstractService.findAll
+# - de.muellerbruehl.books.services.CategoryService.countBooksPerCategory
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (2)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+#
+# Created instances: (2)
+# + class de.muellerbruehl.books.admin.CategoryEditor
+# + class de.muellerbruehl.books.helper.SessionTools
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 0 #######################
+
+
+################ STEP 1 ################
+# Started at: 16:50:08.080
+# Ended at: 16:50:08.115
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (0)
+#
+# Living instances: (2)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 1 #######################
+
+
+################ STEP 2 ################
+# Started at: 16:50:35.465
+# Ended at: 16:50:35.506
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (6)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.helper.SessionTools.changeLanguage
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+#
+# Created instances: (1)
+# + class de.muellerbruehl.books.common.ReviewListController
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.common.ReviewListController
+#
+###################### END OF STEP 2 #######################
+
+
+################ STEP 3 ################
+# Started at: 16:50:35.520
+# Ended at: 16:50:35.568
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (18)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+#
+# Created instances: (1)
+# + class de.muellerbruehl.books.common.ReviewListController
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.common.ReviewListController
+#
+###################### END OF STEP 3 #######################
+
+
+################ STEP 4 ################
+# Started at: 16:51:06.813
+# Ended at: 16:51:06.907
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (57)
+# - de.muellerbruehl.books.helper.SessionTools.getTemplate
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.common.BookListController.getBookList
+# - de.muellerbruehl.books.services.BookService.findAllBy
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.common.BookListController.getBookList
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.common.BookListController.getBookList
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.helper.SessionTools.getBookListTarget
+# - de.muellerbruehl.books.common.BookListController.getBookList
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (4)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+# - class de.muellerbruehl.books.common.BookListController
+#
+# Created instances: (2)
+# + class de.muellerbruehl.books.common.ReviewListController
+# + class de.muellerbruehl.books.common.BookListController
+#
+# Destroyed instances: (2)
+# x class de.muellerbruehl.books.common.ReviewListController
+# x class de.muellerbruehl.books.common.BookListController
+#
+###################### END OF STEP 4 #######################
+
+
+################ STEP 5 ################
+# Started at: 16:51:15.964
+# Ended at: 16:51:16.017
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (24)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.services.AbstractService.find
+# - de.muellerbruehl.books.user.BookPresenter.getBookList
+# - de.muellerbruehl.books.helper.SessionTools.getAdInfo
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.user.BookPresenter.getBookList
+# - de.muellerbruehl.books.helper.SessionTools.getAdInfo
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (4)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+# - class de.muellerbruehl.books.user.BookPresenter
+#
+# Created instances: (2)
+# + class de.muellerbruehl.books.common.ReviewListController
+# + class de.muellerbruehl.books.user.BookPresenter
+#
+# Destroyed instances: (2)
+# x class de.muellerbruehl.books.common.ReviewListController
+# x class de.muellerbruehl.books.user.BookPresenter
+#
+###################### END OF STEP 5 #######################
+
+
+################ STEP 6 ################
+# Started at: 16:51:51.765
+# Ended at: 16:51:51.813
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (39)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.services.AbstractService.find
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getAdInfo
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getAdInfo
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getDisplayLanguage
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (4)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+# - class de.muellerbruehl.books.user.ReviewPresenter
+#
+# Created instances: (2)
+# + class de.muellerbruehl.books.common.ReviewListController
+# + class de.muellerbruehl.books.user.ReviewPresenter
+#
+# Destroyed instances: (2)
+# x class de.muellerbruehl.books.common.ReviewListController
+# x class de.muellerbruehl.books.user.ReviewPresenter
+#
+###################### END OF STEP 6 #######################
+
+
+################ STEP 7 ################
+# Started at: 16:51:58.982
+# Ended at: 16:51:59.041
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (32)
+# - de.muellerbruehl.books.helper.SessionTools.getTemplate
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.common.ReviewListController.getReviews
+# - de.muellerbruehl.books.services.ReviewService.findReviews
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.services.ReviewService.findReviewLinks
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.common.ReviewListController.getReviews
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.common.ReviewListController.getReviews
+# - de.muellerbruehl.books.common.ReviewListController.getReviews
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+#
+# Created instances: (1)
+# + class de.muellerbruehl.books.common.ReviewListController
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.common.ReviewListController
+#
+###################### END OF STEP 7 #######################
+
+
+################ STEP 8 ################
+# Started at: 16:52:06.404
+# Ended at: 16:52:06.440
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (39)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.helper.SessionTools.preRenderView
+# - de.muellerbruehl.books.services.ReviewService.find
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getAdInfo
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getAdInfo
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getDisplayLanguage
+# - de.muellerbruehl.books.user.ReviewPresenter.getReview
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.helper.SessionTools.getMode
+# - de.muellerbruehl.books.helper.SessionTools.getPages
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+#
+# Living instances: (4)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+# - class de.muellerbruehl.books.user.ReviewPresenter
+#
+# Created instances: (2)
+# + class de.muellerbruehl.books.common.ReviewListController
+# + class de.muellerbruehl.books.user.ReviewPresenter
+#
+# Destroyed instances: (2)
+# x class de.muellerbruehl.books.common.ReviewListController
+# x class de.muellerbruehl.books.user.ReviewPresenter
+#
+###################### END OF STEP 8 #######################
+
+
+################ STEP 9 ################
+# Started at: 16:52:12.989
+# Ended at: 16:52:13.033
+# Session: uOtMoMtsUQbAfgautokmUKBvSoZqmJC6qbqgE47A
+#
+# Method calls: (8)
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.admin.CategoryEditor.getCategories
+# - de.muellerbruehl.books.common.ReviewListController.getRecentReviews
+# - de.muellerbruehl.books.helper.SessionTools.getLanguage
+# - de.muellerbruehl.books.services.ReviewService.findRecent
+# - de.muellerbruehl.books.helper.SessionTools.getSearchText
+# - de.muellerbruehl.books.helper.SessionTools.setSearchText
+# - de.muellerbruehl.books.helper.SessionTools.navigate
+#
+# Living instances: (3)
+# - class de.muellerbruehl.books.admin.CategoryEditor
+# - class de.muellerbruehl.books.helper.SessionTools
+# - class de.muellerbruehl.books.common.ReviewListController
+#
+# Created instances: (1)
+# + class de.muellerbruehl.books.common.ReviewListController
+#
+# Destroyed instances: (1)
+# x class de.muellerbruehl.books.common.ReviewListController
+#
+###################### END OF STEP 9 #######################
