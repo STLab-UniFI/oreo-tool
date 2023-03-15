@@ -1,11 +1,12 @@
 # OREO: A Tool for Offline Run-time Monitoring and Fault-Error-Failure Chain Localization
 
-This repository is a companion page for the following publication:
+This repository is a companion page for the following publication, submitted to review at the [Journal of Software: Testing, Verification and Reliability](https://onlinelibrary-wiley-com.vu-nl.idm.oclc.org/journal/10991689):
 > Author Names. Publication year. Thesis / Paper title. Publication venue / proceedings.
 
 It contains all the material required for replicating the study, including: 
 installation steps, customization options and sample timelines extracted.
 
+<!--
 ## How to cite us
 The scientific article describing design, execution, and main results of this study is available [here](https://www.google.com).<br> 
 If this study is helping your research, consider to cite it is as follows, thanks!
@@ -21,6 +22,7 @@ If this study is helping your research, consider to cite it is as follows, thank
   publisher={}
 }
 ```
+-->
 
 ## Quick start
 In order to run the OREO tool alongside your JEE application, follow these steps:
