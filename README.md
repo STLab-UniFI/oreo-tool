@@ -28,7 +28,7 @@ If this study is helping your research, consider to cite it is as follows, thank
 
 OREO is a CDI extension that extracts runtime information and generates dynamically the timeline abstraction from the software architecture under observation.
 In order to run the tool you will need an application of your choice that you want to observe.
-In particular, OREO can be integrated with Java application and is able to detect the interactions of components managed by CDI or EJB both from Java EE and Jakarta EE.
+In particular, OREO can be integrated with applications developed in Java and is able to detect lifecycles and interactions of components managed by CDI or EJB both from Java EE and Jakarta EE.
 
 In order to run the OREO tool, follow these steps:
 
@@ -37,19 +37,8 @@ In order to run the OREO tool, follow these steps:
 1. Clone the repository 
    - `git clone https://github.com/LeonardoScommegna/oreo-tool.git`
 
-#### Setup OREO with Toy App
-
-In order to provide an exemplary setup, this repository includes Toy App, a simple web application.
-
-To build and run the project you will need Maven and an application server.
-In particular, during the experiment we used Maven version 3.8.7 and WildFly version 26.1.0.Final as application server.
-
-To launch the experiment no further configurations are required and you can directly run OREO following the instructions in the dedicated section.
-
-#### Setup OREO with an external application
-
-1. Copy directories `beanTimelineManager` and the `timeLine` from `/code/src/main/java/` of this project to the source directory of the application you want to observe with OREO. If the application is managed with maven the default path is  `/src/main/java/`. 
-2. Add the following dependencies in the `pom.xml` of the target application:
+2. Copy the directories `beanTimelineManager` and `timeLine` from `/oreo_code/src/main/java/` of this project to the source directory of the application you want to observe with OREO. If the application is managed with maven the default path is  `/src/main/java/`. 
+3. Add the following dependencies in the `pom.xml` of the target application:
 ```
 <dependency>
   	<groupId>javax.enterprise</groupId>
@@ -65,13 +54,13 @@ To launch the experiment no further configurations are required and you can dire
 </dependency>
 ```
 4. Register OREO as CDI extension for your application
-    - To do this, it is sufficient to copy the directory `services` from the `code/src/main/resources/META-INF/` path of this repository to the `src/main/resources/META-INF/` path of the target application.
-5.Re-build the target application.
+    - To do this, it is sufficient to copy the directory `services` from the `oreo_code/src/main/resources/META-INF/` path of this repository to the `src/main/resources/META-INF/` path of the target application.
+5. Re-build the target application.
 
 #### Run OREO
 
-1. Configure the filter. Namely [InstanceFilter.java](/code/src/main/java/beanTimelineManager/filter/InstanceFilter.java) 
-    - In order to observe exclusively the instances of your interest, it is sufficient to update to the variable `PACKAGE_OF_INTEREST` inside the [InstanceFilter.java](/code/src/main/java/beanTimelineManager/filter/InstanceFilter.java) file to include the desired classes/packages.
+1. Configure the filter. Namely [InstanceFilter.java](/oreo_code/src/main/java/beanTimelineManager/filter/InstanceFilter.java) 
+    - In order to observe exclusively the instances of your interest, it is sufficient to update to the variable `PACKAGE_OF_INTEREST` inside the [InstanceFilter.java](/oreo_code/src/main/java/beanTimelineManager/filter/InstanceFilter.java) file to include the desired classes/packages.
 2. Build the project and deploy on server
 3. Use the application under observation normally
 4. Once finished, the resulting timeline can be found in SERVER_ROOT/bin/log/
@@ -80,15 +69,26 @@ Sample Output Data
 ---------------
 A sample of timeline output obtained using the [BooksComplete](https://github.com/Apress/Practical-JSF-Java-EE-8/tree/master/BooksComplete) open-source application is available [here](data/).
 
+### Running OREO on Toy App
+
+In order to provide an exemplary application, this repository includes Toy App, a simple web application.
+
+You can find the source code at the path: `/toy_app_code/`
+
+To build and run the project you will need Maven and an application server.
+In particular, during the experiment we used Maven version 3.8.7 and WildFly version 26.1.0.Final as application server.
+
+To launch the experiments with OREO, please follow the instructions outlined above.
+
 ## Repository Structure
 This is the root directory of the repository. The directory is structured as follows:
 
     oreo-tool
      .
      |
-     |--- code/                                 Source code of OREO
-     |      |
-     |      |--- src/main/java/toyApp        	Source code of simpleApp     
+     |--- oreo_code/                            Source code of OREO
+     |
+     |--- toy_app_code/                         Source code of Toy App
      |
      |--- data/                                 Sample timelines
             |
