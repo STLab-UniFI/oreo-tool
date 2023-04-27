@@ -1,7 +1,7 @@
 # OREO: A Tool for Offline Run-time Monitoring and Fault-Error-Failure Chain Localization
 
-This repository is a companion page for the following publication, submitted to review at the [Journal of Software: Testing, Verification and Reliability](https://onlinelibrary-wiley-com.vu-nl.idm.oclc.org/journal/10991689):
-> Author Names. Publication year. Thesis / Paper title. Publication venue / proceedings.
+This repository is a companion page for the following publication, submitted to the [Journal of Software: Testing, Verification and Reliability](https://onlinelibrary-wiley-com.vu-nl.idm.oclc.org/journal/10991689):
+> Leonardo Scommegna, Benedetta Picano, Roberto Verdecchia and Enrico Vicario. 2023. Improving Reliability One Byte at a Time: Offline Run-time Monitoring and Fault-Error-Failure Chain Localization with OREO. Software Testing, Verification and Reliability. (Currently under review).
 
 It contains all the material required for running the OREO tool and generate the timeline of the application under observation, including: 
 installation steps, customization options and sample timelines extracted.
