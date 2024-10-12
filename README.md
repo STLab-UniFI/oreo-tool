@@ -1,10 +1,10 @@
 # OREO: A Tool for Offline Run-time Monitoring and Fault-Error-Failure Chain Localization
 
-This repository is a companion page for the following publication, submitted to the [Journal of Software: Testing, Verification and Reliability](https://onlinelibrary.wiley.com/journal/10991689):
-> Leonardo Scommegna, Benedetta Picano, Roberto Verdecchia and Enrico Vicario. 2023. Improving Reliability One Byte at a Time: Offline Run-time Monitoring and Fault-Error-Failure Chain Localization with OREO. Software Testing, Verification and Reliability. (Currently under review).
+This repository is a companion page for the following publication, submitted to the [Journal of Systems and Software](https://www.sciencedirect.com/journal/journal-of-systems-and-software):
+> Leonardo Scommegna, Benedetta Picano, Roberto Verdecchia and Enrico Vicario. 2024. OREO: A Tool-Supported Approach for Offline Run-time Monitoring and Fault-Error-Failure Chain Localization. Journal of Systems and Software. (Currently under review).
 
-It contains all the material required for running the OREO tool and generate the timeline of the application under observation, including: 
-installation steps, customization options and sample timelines extracted.
+It contains all the material required for running the OREO tool and generating the timeline of the application under observation, including: 
+installation steps, customization options, and sample timelines extracted.
 
 <!--
 ## How to cite us
@@ -26,7 +26,7 @@ If this study is helping your research, consider to cite it is as follows, thank
 
 ## Quick start
 
-OREO is a CDI extension that extracts runtime information and generates dynamically the timeline abstraction from the software architecture under observation.
+OREO is a CDI extension that extracts runtime information and dynamically generates the timeline abstraction from the software architecture under observation.
 In order to run the tool you will need an application of your choice that you want to observe.
 In particular, OREO can be integrated with applications developed in Java and is able to detect lifecycles and interactions of components managed by CDI or EJB both from Java EE and Jakarta EE.
 
