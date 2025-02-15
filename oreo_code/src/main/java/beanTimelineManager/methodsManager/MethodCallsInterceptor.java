@@ -27,14 +27,12 @@ public class MethodCallsInterceptor implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
-//	private List<Class<?>> involvedClasses;
 	private List<Method> involvedMethods;
 
 	@Inject
 	MethodsCollector methodsCollector;
 	
 	public void resetInteractions() {
-//		involvedClasses = new ArrayList<Class<?>>();
 		involvedMethods = new ArrayList<Method>();
 	}
 
@@ -51,10 +49,6 @@ public class MethodCallsInterceptor implements Serializable {
 			throw e;
 		}
 	}
-
-//	public List<Class<?>> getInvolvedClasses() {
-//		return involvedClasses;
-//	}
 
 	public List<Method> getInvolvedMethods() {
 		return involvedMethods;

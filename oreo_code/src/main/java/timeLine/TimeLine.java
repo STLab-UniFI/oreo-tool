@@ -6,6 +6,8 @@ import java.util.List;
 
 import javax.enterprise.context.ApplicationScoped;
 
+import com.fasterxml.jackson.annotation.JsonIdentityReference;
+
 @ApplicationScoped
 public class TimeLine {
 
@@ -47,7 +49,6 @@ public class TimeLine {
 		SessionTimeLine session = getsessionIfExist(sessionId);
 		if(session == null)
 			return;
-//		System.out.println("SESSION ID: " + sessionId);
 		session.decorateCurrentStepWithDestroyedInstances(initialContextualInstances);
 	}
 	
@@ -89,5 +90,11 @@ public class TimeLine {
 
 	public List<SessionTimeLine> getSessions() {
 		return sessions;
+	}
+	
+	public void print() {
+		for (SessionTimeLine sessionTimeLine : sessions) {
+			sessionTimeLine.print();
+		}
 	}
 }

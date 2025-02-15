@@ -1,7 +1,11 @@
 package beanTimelineManager;
 
+import java.io.File;
+import java.io.IOException;
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
@@ -21,12 +25,17 @@ import javax.servlet.ServletRequestListener;
 import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpServletRequest;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.MapperFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+
 import beanTimelineManager.filter.InstanceFilter;
 import beanTimelineManager.methodsManager.MethodsCollector;
 import timeLine.InstanceMethod;
 import timeLine.TimeLine;
 import timeLine.TimeLineLogger;
-import unravel.TimeLineToERDConverter;
 
 @WebListener
 @ApplicationScoped
@@ -61,7 +70,26 @@ public class BeansRequestListener implements ServletRequestListener, Serializabl
 	public void close() {
 		timeLine.close();
 		logger.concludeLog(timeLine);
-		TimeLineToERDConverter.convertTimeline(timeLine);
+		persistTimeLine(timeLine);
+	}
+
+	private void persistTimeLine(TimeLine timeLine) {
+		timeLine.getSessions().remove(0);
+		ObjectMapper mapper = new ObjectMapper()
+			    .registerModule(new JavaTimeModule())
+			    .enable(SerializationFeature.INDENT_OUTPUT)
+			    .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)
+			    .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+		
+        LocalDateTime now = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmm");
+        String formattedDateTime = now.format(formatter);
+		
+        try {
+			mapper.writeValue(new File("/data/" + formattedDateTime + "_tl.json"), timeLine);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Override
@@ -84,7 +112,7 @@ public class BeansRequestListener implements ServletRequestListener, Serializabl
 		String pageUrl = getPageName(servletRequest);
 
 		// defensive copies
-		// TODO le defensive copies potrebbero essere spostate dentro i metodi
+		// TODO could be placed inside the methods
 		LocalTime _startRequestTime = startRequestTime;
 		LocalTime _closeRequestTime = closeRequestTime;
 		List<Object> _initialContextualInstances = new ArrayList<Object>(initialContextualInstances);

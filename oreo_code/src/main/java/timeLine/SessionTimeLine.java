@@ -4,10 +4,14 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIdentityReference;
+
 public class SessionTimeLine {
 
 	private String sessionId;
+
 	private List<TimeStep> timeSteps;
+
 	private List<ContextualInstance> currentlyLivingInstances;
 
 	public SessionTimeLine(String sessionId) {
@@ -15,6 +19,8 @@ public class SessionTimeLine {
 		timeSteps = new ArrayList<TimeStep>();
 		currentlyLivingInstances = new ArrayList<ContextualInstance>();
 	}
+
+	public SessionTimeLine() { }
 
 	public void decorateCurrentStepWithRequestInfo(List<Object> objects, List<InstanceMethod> observedMethods) {
 		decorateLastStepWithLivingInstancesInfo(objects);
@@ -124,5 +130,16 @@ public class SessionTimeLine {
 	public List<TimeStep> getTimeSteps() {
 		return timeSteps;
 	}
+
+	public void print() {
+		System.out.println("Printing Session Timeline: " + sessionId);
+		System.out.println();
+
+		for (TimeStep timeStep : timeSteps) {
+			timeStep.print();
+		}
+	}
+	
+	
 
 }

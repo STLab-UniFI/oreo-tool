@@ -7,7 +7,7 @@ import javax.enterprise.inject.spi.ProcessAnnotatedType;
 
 public class InstanceFilter {
 	
-	private static final String PACKAGE_OF_INTEREST = "simpleApp";
+	private static final String PACKAGE_OF_INTEREST = "toyApp";
 
 	public static boolean instanceShouldBeAnnotated(ProcessAnnotatedType<?> event) {
 		return event.getAnnotatedType().getBaseType().toString().contains(PACKAGE_OF_INTEREST)

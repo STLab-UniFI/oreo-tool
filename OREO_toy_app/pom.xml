@@ -5,8 +5,8 @@
 	<groupId>it.unifi.dinfo.stlab</groupId>
 	<artifactId>simple-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-<!--<packaging>war</packaging>
+	<packaging>war</packaging>
+	<!--<packaging>jar</packaging>
 -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,7 +54,7 @@
 
 	</dependencies>
 
-<!--	<build>
+	<build>
 		<finalName>simpleapp</finalName>
 		<plugins>
 			<plugin>
@@ -64,8 +64,8 @@
 			</plugin>
 		</plugins>
 	</build>
--->
-	<build>
+
+	<!--	<build>
   <plugins>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
@@ -81,7 +81,8 @@
           <configuration>
             <finalName>table1</finalName>
             <transformers>
-              <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+              <transformer
+	implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                 <mainClass>profiler.OREOAnalysisLauncherTable1</mainClass>
               </transformer>
             </transformers>
@@ -96,7 +97,8 @@
           <configuration>
             <finalName>table2</finalName>
             <transformers>
-              <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+              <transformer
+	implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                 <mainClass>profiler.OREOAnalysisLauncherTable2</mainClass>
               </transformer>
             </transformers>
@@ -106,5 +108,5 @@
     </plugin>
   </plugins>
 </build>
-	
+-->
 </project>

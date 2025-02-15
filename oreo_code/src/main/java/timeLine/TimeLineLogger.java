@@ -152,6 +152,7 @@ public class TimeLineLogger {
 				// serirebbe un qualcosa di simile a wosar 21 con il json
 			}
 			methodCalls += ")" + '\n';
+			methodCalls += "Caller Instance: " + method.getCallerInstance() + '\n';
 		}
 		methodCalls += "#" + '\n';
 		return methodCalls;

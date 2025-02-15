@@ -22,6 +22,8 @@ public class InstanceMethod {
 		this.parameters = ctx.getParameters();
 	}
 
+	public InstanceMethod() {}
+
 	public String getDeclaringClassName() {
 		return declaringClassName;
 	}

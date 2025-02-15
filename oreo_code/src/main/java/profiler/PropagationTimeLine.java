@@ -2,6 +2,7 @@ package profiler;
 
 import java.util.List;
 
+@Deprecated
 public class PropagationTimeLine {
 	
 	private List<PropagationStep> steps;

@@ -5,9 +5,9 @@
 	<groupId>it.unifi.dinfo.stlab</groupId>
 	<artifactId>simple-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-<!--	<packaging>jar</packaging>
--->	<packaging>war</packaging>
-
+	<packaging>war</packaging>
+	<!--<packaging>jar</packaging>
+-->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -64,15 +64,14 @@
 			</plugin>
 		</plugins>
 	</build>
-<!--	
-	<build>
+
+	<!--	<build>
   <plugins>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-shade-plugin</artifactId>
       <version>3.3.0</version>
       <executions>
-         Primo JAR per Main1 
         <execution>
           <id>shade-main1</id>
           <phase>package</phase>
@@ -80,17 +79,15 @@
             <goal>shade</goal>
           </goals>
           <configuration>
-             Nome del file jar generato 
             <finalName>table1</finalName>
             <transformers>
-               Imposta la Main-Class nel MANIFEST 
-              <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+              <transformer
+	implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                 <mainClass>profiler.OREOAnalysisLauncherTable1</mainClass>
               </transformer>
             </transformers>
           </configuration>
         </execution>
-         Secondo JAR per Main2 
         <execution>
           <id>shade-main2</id>
           <phase>package</phase>
@@ -100,7 +97,8 @@
           <configuration>
             <finalName>table2</finalName>
             <transformers>
-              <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+              <transformer
+	implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                 <mainClass>profiler.OREOAnalysisLauncherTable2</mainClass>
               </transformer>
             </transformers>
@@ -110,6 +108,5 @@
     </plugin>
   </plugins>
 </build>
--->	
-	
+-->
 </project>

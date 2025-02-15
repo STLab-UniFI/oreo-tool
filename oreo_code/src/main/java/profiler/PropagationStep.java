@@ -7,6 +7,7 @@ import timeLine.ContextualInstance;
 import timeLine.InstanceMethod;
 import timeLine.TimeStep;
 
+@Deprecated
 public class PropagationStep {
 
 	private String sessionId;
