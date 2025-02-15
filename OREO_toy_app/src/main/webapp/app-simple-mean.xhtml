@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<ui:composition template="layout/app-simple-template.xhtml">
+	<ui:define name="body">
+
+		<link rel="stylesheet" href="css/FM-index.css" />
+
+		<h2>App Simple Mean Calculation</h2>
+
+
+		<h3>first operator</h3>
+
+
+		<center>
+			<h:form id="form" style="width: 700px;">
+
+					<h3>Insert First Operator</h3>
+					<p:inputText id="first-op"
+						value="#{meanController.firstOperator}"
+						style="max-width: 350px;">
+					</p:inputText>
+
+				<h:commandButton id="firstOpBtn" class="btn btn-success"
+					action="#{navigatorController.navigate('app-simple-mean-second')}" value="Next" />
+
+			</h:form>
+		</center>
+
+
+	</ui:define>
+</ui:composition>
+
+</html>
+
+
+

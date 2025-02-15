@@ -1,0 +1,34 @@
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+
+	<h:head />
+
+	<ui:composition template="layout/app-simple-template.xhtml">
+		<ui:define name="body">
+			<link rel="stylesheet" href="css/FM-index.css" />
+
+			<h2>App Simple login</h2>
+
+			<div style="float: right" id='topdiv'>
+
+				<h:form rendered="#{loggedSessionBean.isLoggedInTest()}"
+					id="outForm">
+					<h:commandButton id="LogoutBtn" styleClass="btn btn-warning"
+						action="#{loggedSessionBean.logout()}" value="Logout"
+						style="margin-left: 20px;">
+					</h:commandButton>
+				</h:form>
+
+				<h:form rendered="#{!loggedSessionBean.loggedIn}" id="inForm">
+					<h:commandButton id="stdLoginBtn" styleClass="btn btn-success"
+						action="#{loggedSessionBean.login()}" value="Login"
+						style="margin-left: 20px;">
+					</h:commandButton>
+				</h:form>
+			</div>
+		</ui:define>
+	</ui:composition>
+</f:view>

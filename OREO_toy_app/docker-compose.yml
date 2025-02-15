@@ -1,0 +1,18 @@
+services:
+  wildfly:
+    image: quay.io/wildfly/wildfly:26.0.1.Final
+    container_name: wildfly-app
+    ports:
+      - "8080:8080"
+      - "8787:8787"  # remote debug
+    volumes:
+      - ./target/simpleapp.war:/opt/jboss/wildfly/standalone/deployments/simpleapp.war
+      - ./data:/data
+    environment:
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8787"
+    command:
+      - "/opt/jboss/wildfly/bin/standalone.sh"
+      - "-b"
+      - "0.0.0.0"
+      - "-bmanagement"
+      - "0.0.0.0"

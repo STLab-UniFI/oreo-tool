@@ -1,7 +1,13 @@
 import re
 import numpy as np
+import sys
 
-app = "empedocle-timeline.txt"
+app = "toyapp-timeline.txt"
+
+if len(sys.argv) > 1:
+    app = sys.argv[1]
+
+
 
 def living_extraction(file_name):
     pattern = r"# Living instances: \((\d+)\)"

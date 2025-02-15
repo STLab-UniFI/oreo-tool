@@ -1,0 +1,936 @@
+{
+  "sessions" : [ {
+    "sessionId" : "YzYnKiC6oGtJoBGh8Qov1UVB5BnSupU-UQmL2PtA",
+    "timeSteps" : [ {
+      "uuid" : "2ed505f1-114a-4835-be09-a93744a188b7",
+      "sessionId" : "YzYnKiC6oGtJoBGh8Qov1UVB5BnSupU-UQmL2PtA",
+      "requestId" : 1,
+      "livingInstances" : [ {
+        "uuid" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "instance" : {
+          "@class" : "toyApp.LoggedSessionBean",
+          "data" : {
+            "user" : null,
+            "loggedInTest" : false,
+            "loggedIn" : false
+          }
+        },
+        "name" : "toyApp.LoggedSessionBean",
+        "sessionID" : "YzYnKiC6oGtJoBGh8Qov1UVB5BnSupU-UQmL2PtA"
+      }, {
+        "uuid" : "59eac77e-fcb9-4377-8063-a1446bedfc10",
+        "instance" : {
+          "@class" : "toyApp.ApplicationCounter",
+          "data" : {
+            "meanHistory" : [ 15, 800 ]
+          }
+        },
+        "name" : "toyApp.ApplicationCounter",
+        "sessionID" : "YzYnKiC6oGtJoBGh8Qov1UVB5BnSupU-UQmL2PtA"
+      }, {
+        "uuid" : "8d1c5298-001b-47f8-b676-6ec3ec281c60",
+        "instance" : {
+          "@class" : "toyApp.OddCalculator",
+          "data" : { }
+        },
+        "name" : "toyApp.OddCalculator",
+        "sessionID" : "YzYnKiC6oGtJoBGh8Qov1UVB5BnSupU-UQmL2PtA"
+      } ],
+      "generatedInstances" : [ "ea2bd533-170e-4bae-a8ae-fb4260d6992c", "59eac77e-fcb9-4377-8063-a1446bedfc10", "8d1c5298-001b-47f8-b676-6ec3ec281c60" ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.ApplicationCounter",
+        "methodName" : "isLastNMeanInsertedOdd",
+        "callerInstance" : "59eac77e-fcb9-4377-8063-a1446bedfc10",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.OddCalculator",
+        "methodName" : "calcIfOdd",
+        "callerInstance" : "8d1c5298-001b-47f8-b676-6ec3ec281c60",
+        "parameters" : [ [ 15, 800 ], 3 ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "ea2bd533-170e-4bae-a8ae-fb4260d6992c",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:23:34.064429",
+      "endTime" : "16:23:34.080318",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-home.xhtml"
+    } ]
+  }, {
+    "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+    "timeSteps" : [ {
+      "uuid" : "8e830907-5c56-49c2-8564-dd751293964b",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 2,
+      "livingInstances" : [ {
+        "uuid" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "instance" : {
+          "@class" : "toyApp.LoggedSessionBean",
+          "data" : {
+            "user" : null,
+            "loggedInTest" : false,
+            "loggedIn" : false
+          }
+        },
+        "name" : "toyApp.LoggedSessionBean",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      }, {
+        "uuid" : "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317",
+        "instance" : {
+          "@class" : "toyApp.ApplicationCounter",
+          "data" : {
+            "meanHistory" : [ 15, 800 ]
+          }
+        },
+        "name" : "toyApp.ApplicationCounter",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      } ],
+      "generatedInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317" ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ ],
+      "beginTime" : "16:23:34.149686",
+      "endTime" : "16:23:34.184267",
+      "pageId" : "http://localhost:8080/simpleapp/javax.faces.resource/primeicons/primeicons.css.xhtml"
+    }, {
+      "uuid" : "7516d8b0-510d-4257-a51c-fabe2dd49def",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 3,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ ],
+      "beginTime" : "16:23:34.149686",
+      "endTime" : "16:23:34.297286",
+      "pageId" : "http://localhost:8080/simpleapp/javax.faces.resource/theme.css.xhtml"
+    }, {
+      "uuid" : "7d65dedc-4165-4352-8f65-8770bc912b83",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 8,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317", {
+        "uuid" : "c9e96136-d616-4465-9bae-4edb2944627f",
+        "instance" : {
+          "@class" : "toyApp.NavigatorController",
+          "data" : { }
+        },
+        "name" : "toyApp.NavigatorController",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      } ],
+      "generatedInstances" : [ "c9e96136-d616-4465-9bae-4edb2944627f" ],
+      "destroyedInstances" : [ "c9e96136-d616-4465-9bae-4edb2944627f" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.NavigatorController",
+        "methodName" : "navigateAndBeginConv",
+        "callerInstance" : "c9e96136-d616-4465-9bae-4edb2944627f",
+        "parameters" : [ "app-simple-mean" ]
+      }, {
+        "declaringClassName" : "javax.enterprise.context.Conversation",
+        "methodName" : "isTransient",
+        "callerInstance" : null,
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "javax.enterprise.context.Conversation",
+        "methodName" : "begin",
+        "callerInstance" : null,
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:23:46.608682",
+      "endTime" : "16:23:46.61773",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-home.xhtml"
+    }, {
+      "uuid" : "083a4cd8-e142-4fc2-8014-e97581766abb",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 9,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317", {
+        "uuid" : "d0f80d91-16ac-48ec-8528-331f8589651b",
+        "instance" : {
+          "@class" : "toyApp.MeanController",
+          "data" : {
+            "firstOperator" : 700.0,
+            "secondOperator" : 900.0,
+            "result" : 800.0,
+            "useFavourite" : false
+          }
+        },
+        "name" : "toyApp.MeanController",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      } ],
+      "generatedInstances" : [ "d0f80d91-16ac-48ec-8528-331f8589651b" ],
+      "destroyedInstances" : [ "d0f80d91-16ac-48ec-8528-331f8589651b" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getFirstOperator",
+        "callerInstance" : "d0f80d91-16ac-48ec-8528-331f8589651b",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:23:46.621938",
+      "endTime" : "16:23:46.638347",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean.xhtml"
+    }, {
+      "uuid" : "fc87a782-3b57-419e-9764-51d997da4a9b",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 10,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ ],
+      "beginTime" : "16:23:46.661691",
+      "endTime" : "16:23:46.66918",
+      "pageId" : "http://localhost:8080/simpleapp/javax.faces.resource/jquery/jquery.js.xhtml"
+    }, {
+      "uuid" : "1fd6584c-b3ea-43a9-81ce-d9b36c065b05",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 11,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ ],
+      "beginTime" : "16:23:46.661691",
+      "endTime" : "16:23:46.67122",
+      "pageId" : "http://localhost:8080/simpleapp/javax.faces.resource/core.js.xhtml"
+    }, {
+      "uuid" : "c3e2d843-be82-4f26-a77d-e09c60ed532c",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 12,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ ],
+      "beginTime" : "16:23:46.661691",
+      "endTime" : "16:23:46.695727",
+      "pageId" : "http://localhost:8080/simpleapp/javax.faces.resource/components.js.xhtml"
+    }, {
+      "uuid" : "e6344362-e11a-49b5-9aa2-520db2901a20",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 13,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ ],
+      "beginTime" : "16:23:46.661691",
+      "endTime" : "16:23:46.791771",
+      "pageId" : "http://localhost:8080/simpleapp/javax.faces.resource/components.css.xhtml"
+    }, {
+      "uuid" : "b14ee668-4de4-4eda-9512-252fc3ff72a0",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 14,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317", {
+        "uuid" : "964290cc-53bc-4208-8220-2f61accf1764",
+        "instance" : {
+          "@class" : "toyApp.MeanController",
+          "data" : {
+            "firstOperator" : 700.0,
+            "secondOperator" : 900.0,
+            "result" : 800.0,
+            "useFavourite" : false
+          }
+        },
+        "name" : "toyApp.MeanController",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      }, {
+        "uuid" : "49fc7495-74f6-4b28-9eb0-fbd1e47d7f99",
+        "instance" : {
+          "@class" : "toyApp.NavigatorController",
+          "data" : { }
+        },
+        "name" : "toyApp.NavigatorController",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      } ],
+      "generatedInstances" : [ "964290cc-53bc-4208-8220-2f61accf1764", "49fc7495-74f6-4b28-9eb0-fbd1e47d7f99" ],
+      "destroyedInstances" : [ "49fc7495-74f6-4b28-9eb0-fbd1e47d7f99" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getFirstOperator",
+        "callerInstance" : "964290cc-53bc-4208-8220-2f61accf1764",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "setFirstOperator",
+        "callerInstance" : "964290cc-53bc-4208-8220-2f61accf1764",
+        "parameters" : [ 700.0 ]
+      }, {
+        "declaringClassName" : "toyApp.NavigatorController",
+        "methodName" : "navigate",
+        "callerInstance" : "49fc7495-74f6-4b28-9eb0-fbd1e47d7f99",
+        "parameters" : [ "app-simple-mean-second" ]
+      } ],
+      "beginTime" : "16:23:50.028956",
+      "endTime" : "16:23:50.039781",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean.xhtml"
+    }, {
+      "uuid" : "2196f9fe-0aba-4b5c-b05d-414eae4e4fc4",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 15,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317", "964290cc-53bc-4208-8220-2f61accf1764" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getSecondOperator",
+        "callerInstance" : "964290cc-53bc-4208-8220-2f61accf1764",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:23:50.04398",
+      "endTime" : "16:23:50.058376",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean-second.xhtml"
+    }, {
+      "uuid" : "d793491b-0aba-452f-b3e4-64c4dee8494d",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 20,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317", "964290cc-53bc-4208-8220-2f61accf1764", {
+        "uuid" : "2051b824-b36b-4a5b-948c-5b1dbc416459",
+        "instance" : {
+          "@class" : "toyApp.MeanCalculator",
+          "data" : { }
+        },
+        "name" : "toyApp.MeanCalculator",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      }, {
+        "uuid" : "189ca8d6-0287-457d-ba00-57b138c282c4",
+        "instance" : {
+          "@class" : "toyApp.NavigatorController",
+          "data" : { }
+        },
+        "name" : "toyApp.NavigatorController",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      } ],
+      "generatedInstances" : [ "2051b824-b36b-4a5b-948c-5b1dbc416459", "189ca8d6-0287-457d-ba00-57b138c282c4" ],
+      "destroyedInstances" : [ "2051b824-b36b-4a5b-948c-5b1dbc416459", "189ca8d6-0287-457d-ba00-57b138c282c4" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getSecondOperator",
+        "callerInstance" : "964290cc-53bc-4208-8220-2f61accf1764",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "setSecondOperator",
+        "callerInstance" : "964290cc-53bc-4208-8220-2f61accf1764",
+        "parameters" : [ 900.0 ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "confirm",
+        "callerInstance" : "964290cc-53bc-4208-8220-2f61accf1764",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanCalculator",
+        "methodName" : "CalcMean",
+        "callerInstance" : "2051b824-b36b-4a5b-948c-5b1dbc416459",
+        "parameters" : [ 700.0, 900.0 ]
+      }, {
+        "declaringClassName" : "toyApp.ApplicationCounter",
+        "methodName" : "insertMeanListItem",
+        "callerInstance" : "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317",
+        "parameters" : [ 800.0 ]
+      }, {
+        "declaringClassName" : "toyApp.NavigatorController",
+        "methodName" : "navigate",
+        "callerInstance" : "189ca8d6-0287-457d-ba00-57b138c282c4",
+        "parameters" : [ "app-simple-mean-confirm" ]
+      } ],
+      "beginTime" : "16:24:08.265723",
+      "endTime" : "16:24:08.277951",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean-second.xhtml"
+    }, {
+      "uuid" : "ce74aaeb-229f-45da-9d2e-ba8e22bf849b",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 21,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317", "964290cc-53bc-4208-8220-2f61accf1764" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getResult",
+        "callerInstance" : "964290cc-53bc-4208-8220-2f61accf1764",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:24:08.281931",
+      "endTime" : "16:24:08.291353",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean-confirm.xhtml"
+    }, {
+      "uuid" : "998a3bbb-34c0-43a3-b943-19b449ee9b81",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 22,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317", "964290cc-53bc-4208-8220-2f61accf1764", {
+        "uuid" : "c4684ae1-a2c3-4812-ba4d-3dd2807d65fe",
+        "instance" : {
+          "@class" : "toyApp.NavigatorController",
+          "data" : { }
+        },
+        "name" : "toyApp.NavigatorController",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      } ],
+      "generatedInstances" : [ "c4684ae1-a2c3-4812-ba4d-3dd2807d65fe" ],
+      "destroyedInstances" : [ "964290cc-53bc-4208-8220-2f61accf1764", "c4684ae1-a2c3-4812-ba4d-3dd2807d65fe" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.NavigatorController",
+        "methodName" : "navigateAndCloseConv",
+        "callerInstance" : "c4684ae1-a2c3-4812-ba4d-3dd2807d65fe",
+        "parameters" : [ "app-simple-home" ]
+      }, {
+        "declaringClassName" : "javax.enterprise.context.Conversation",
+        "methodName" : "isTransient",
+        "callerInstance" : null,
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "javax.enterprise.context.Conversation",
+        "methodName" : "end",
+        "callerInstance" : null,
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:24:09.175195",
+      "endTime" : "16:24:09.182737",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean-confirm.xhtml"
+    }, {
+      "uuid" : "70dfac04-99c2-44b2-b3ff-b5cc8be23131",
+      "sessionId" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k",
+      "requestId" : 23,
+      "livingInstances" : [ "c1481c0f-11b1-4d6b-aba4-0de3d020622c", "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317", {
+        "uuid" : "0a3ad4d4-8fbc-425a-868f-08964a7e5e98",
+        "instance" : {
+          "@class" : "toyApp.OddCalculator",
+          "data" : { }
+        },
+        "name" : "toyApp.OddCalculator",
+        "sessionID" : "uFDAzQn8XMl9dmZYMcfqb8Y1Hyaze-CQbeIN6c0k"
+      } ],
+      "generatedInstances" : [ "0a3ad4d4-8fbc-425a-868f-08964a7e5e98" ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.ApplicationCounter",
+        "methodName" : "isLastNMeanInsertedOdd",
+        "callerInstance" : "46f2d0b1-8efe-4a64-8d31-e5ddeb9d3317",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.OddCalculator",
+        "methodName" : "calcIfOdd",
+        "callerInstance" : "0a3ad4d4-8fbc-425a-868f-08964a7e5e98",
+        "parameters" : [ [ 15, 800 ], 3 ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "c1481c0f-11b1-4d6b-aba4-0de3d020622c",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:24:09.186251",
+      "endTime" : "16:24:09.194352",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-home.xhtml"
+    } ]
+  }, {
+    "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+    "timeSteps" : [ {
+      "uuid" : "267700f6-f1aa-40fd-94a6-d6dfdaef9551",
+      "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+      "requestId" : 4,
+      "livingInstances" : [ {
+        "uuid" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "instance" : {
+          "@class" : "toyApp.LoggedSessionBean",
+          "data" : {
+            "user" : null,
+            "loggedInTest" : false,
+            "loggedIn" : false
+          }
+        },
+        "name" : "toyApp.LoggedSessionBean",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      }, {
+        "uuid" : "9fa870d5-4917-4ee9-9b22-01992703c66b",
+        "instance" : {
+          "@class" : "toyApp.ApplicationCounter",
+          "data" : {
+            "meanHistory" : [ 15, 800 ]
+          }
+        },
+        "name" : "toyApp.ApplicationCounter",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      }, {
+        "uuid" : "bc89c240-ef3b-4aaf-ac87-1de80871209c",
+        "instance" : {
+          "@class" : "toyApp.NavigatorController",
+          "data" : { }
+        },
+        "name" : "toyApp.NavigatorController",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      } ],
+      "generatedInstances" : [ "1b30d360-6597-48c2-bab3-0a85b6988e1f", "9fa870d5-4917-4ee9-9b22-01992703c66b", "bc89c240-ef3b-4aaf-ac87-1de80871209c" ],
+      "destroyedInstances" : [ "bc89c240-ef3b-4aaf-ac87-1de80871209c" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.NavigatorController",
+        "methodName" : "navigateAndBeginConv",
+        "callerInstance" : "bc89c240-ef3b-4aaf-ac87-1de80871209c",
+        "parameters" : [ "app-simple-mean" ]
+      }, {
+        "declaringClassName" : "javax.enterprise.context.Conversation",
+        "methodName" : "isTransient",
+        "callerInstance" : null,
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "javax.enterprise.context.Conversation",
+        "methodName" : "begin",
+        "callerInstance" : null,
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:23:40.00573",
+      "endTime" : "16:23:40.053659",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-home.xhtml"
+    }, {
+      "uuid" : "dd3b8185-886a-48eb-9127-c7a93c1a8ce6",
+      "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+      "requestId" : 5,
+      "livingInstances" : [ "1b30d360-6597-48c2-bab3-0a85b6988e1f", "9fa870d5-4917-4ee9-9b22-01992703c66b", {
+        "uuid" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "instance" : {
+          "@class" : "toyApp.MeanController",
+          "data" : {
+            "firstOperator" : 10.0,
+            "secondOperator" : 20.0,
+            "result" : 15.0,
+            "useFavourite" : false
+          }
+        },
+        "name" : "toyApp.MeanController",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      } ],
+      "generatedInstances" : [ "66b50fa0-d3c9-4e1b-8a47-a7793daa926d" ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getFirstOperator",
+        "callerInstance" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:23:40.070868",
+      "endTime" : "16:23:40.1498",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean.xhtml"
+    }, {
+      "uuid" : "e8c7d0de-30cf-4f36-ad67-d3567bf44cf7",
+      "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+      "requestId" : 6,
+      "livingInstances" : [ "1b30d360-6597-48c2-bab3-0a85b6988e1f", "9fa870d5-4917-4ee9-9b22-01992703c66b", "66b50fa0-d3c9-4e1b-8a47-a7793daa926d", {
+        "uuid" : "28068db6-052f-4185-bffe-3a9970f28b7f",
+        "instance" : {
+          "@class" : "toyApp.NavigatorController",
+          "data" : { }
+        },
+        "name" : "toyApp.NavigatorController",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      } ],
+      "generatedInstances" : [ "28068db6-052f-4185-bffe-3a9970f28b7f" ],
+      "destroyedInstances" : [ "28068db6-052f-4185-bffe-3a9970f28b7f" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getFirstOperator",
+        "callerInstance" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "setFirstOperator",
+        "callerInstance" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "parameters" : [ 10.0 ]
+      }, {
+        "declaringClassName" : "toyApp.NavigatorController",
+        "methodName" : "navigate",
+        "callerInstance" : "28068db6-052f-4185-bffe-3a9970f28b7f",
+        "parameters" : [ "app-simple-mean-second" ]
+      } ],
+      "beginTime" : "16:23:42.6794",
+      "endTime" : "16:23:42.744192",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean.xhtml"
+    }, {
+      "uuid" : "25bd60fa-a781-4ba8-91cd-bcf5824b938f",
+      "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+      "requestId" : 7,
+      "livingInstances" : [ "1b30d360-6597-48c2-bab3-0a85b6988e1f", "9fa870d5-4917-4ee9-9b22-01992703c66b", "66b50fa0-d3c9-4e1b-8a47-a7793daa926d" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getSecondOperator",
+        "callerInstance" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:23:42.758592",
+      "endTime" : "16:23:42.791356",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean-second.xhtml"
+    }, {
+      "uuid" : "68ea8cb9-1d6a-4b5d-a45a-f759da714f5f",
+      "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+      "requestId" : 16,
+      "livingInstances" : [ "1b30d360-6597-48c2-bab3-0a85b6988e1f", "9fa870d5-4917-4ee9-9b22-01992703c66b", "66b50fa0-d3c9-4e1b-8a47-a7793daa926d", {
+        "uuid" : "09c4b61e-7091-4715-a891-acef98c736f3",
+        "instance" : {
+          "@class" : "toyApp.MeanCalculator",
+          "data" : { }
+        },
+        "name" : "toyApp.MeanCalculator",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      }, {
+        "uuid" : "b12cd086-837b-4b44-a10e-61ac74f887c3",
+        "instance" : {
+          "@class" : "toyApp.NavigatorController",
+          "data" : { }
+        },
+        "name" : "toyApp.NavigatorController",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      } ],
+      "generatedInstances" : [ "09c4b61e-7091-4715-a891-acef98c736f3", "b12cd086-837b-4b44-a10e-61ac74f887c3" ],
+      "destroyedInstances" : [ "09c4b61e-7091-4715-a891-acef98c736f3", "b12cd086-837b-4b44-a10e-61ac74f887c3" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getSecondOperator",
+        "callerInstance" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "setSecondOperator",
+        "callerInstance" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "parameters" : [ 20.0 ]
+      }, {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "confirm",
+        "callerInstance" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.MeanCalculator",
+        "methodName" : "CalcMean",
+        "callerInstance" : "09c4b61e-7091-4715-a891-acef98c736f3",
+        "parameters" : [ 10.0, 20.0 ]
+      }, {
+        "declaringClassName" : "toyApp.ApplicationCounter",
+        "methodName" : "insertMeanListItem",
+        "callerInstance" : "9fa870d5-4917-4ee9-9b22-01992703c66b",
+        "parameters" : [ 15.0 ]
+      }, {
+        "declaringClassName" : "toyApp.NavigatorController",
+        "methodName" : "navigate",
+        "callerInstance" : "b12cd086-837b-4b44-a10e-61ac74f887c3",
+        "parameters" : [ "app-simple-mean-confirm" ]
+      } ],
+      "beginTime" : "16:23:59.94549",
+      "endTime" : "16:23:59.971813",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean-second.xhtml"
+    }, {
+      "uuid" : "093441f0-6922-46f2-946a-569892e95fb1",
+      "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+      "requestId" : 17,
+      "livingInstances" : [ "1b30d360-6597-48c2-bab3-0a85b6988e1f", "9fa870d5-4917-4ee9-9b22-01992703c66b", "66b50fa0-d3c9-4e1b-8a47-a7793daa926d" ],
+      "generatedInstances" : [ ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.MeanController",
+        "methodName" : "getResult",
+        "callerInstance" : "66b50fa0-d3c9-4e1b-8a47-a7793daa926d",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:23:59.988101",
+      "endTime" : "16:24:00.013415",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean-confirm.xhtml"
+    }, {
+      "uuid" : "9848a8e2-f7e6-4e6c-8ee9-0a0935a51199",
+      "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+      "requestId" : 18,
+      "livingInstances" : [ "1b30d360-6597-48c2-bab3-0a85b6988e1f", "9fa870d5-4917-4ee9-9b22-01992703c66b", "66b50fa0-d3c9-4e1b-8a47-a7793daa926d", {
+        "uuid" : "71afbe8a-1ac5-4d4b-a2c4-61deec960e41",
+        "instance" : {
+          "@class" : "toyApp.NavigatorController",
+          "data" : { }
+        },
+        "name" : "toyApp.NavigatorController",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      } ],
+      "generatedInstances" : [ "71afbe8a-1ac5-4d4b-a2c4-61deec960e41" ],
+      "destroyedInstances" : [ "66b50fa0-d3c9-4e1b-8a47-a7793daa926d", "71afbe8a-1ac5-4d4b-a2c4-61deec960e41" ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.NavigatorController",
+        "methodName" : "navigateAndCloseConv",
+        "callerInstance" : "71afbe8a-1ac5-4d4b-a2c4-61deec960e41",
+        "parameters" : [ "app-simple-home" ]
+      }, {
+        "declaringClassName" : "javax.enterprise.context.Conversation",
+        "methodName" : "isTransient",
+        "callerInstance" : null,
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "javax.enterprise.context.Conversation",
+        "methodName" : "end",
+        "callerInstance" : null,
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:24:01.697567",
+      "endTime" : "16:24:01.708527",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-mean-confirm.xhtml"
+    }, {
+      "uuid" : "de8247dc-945f-46f1-878f-6756d34b7f30",
+      "sessionId" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI",
+      "requestId" : 19,
+      "livingInstances" : [ "1b30d360-6597-48c2-bab3-0a85b6988e1f", "9fa870d5-4917-4ee9-9b22-01992703c66b", {
+        "uuid" : "0436ddf6-596e-464e-8dc8-98803709ff25",
+        "instance" : {
+          "@class" : "toyApp.OddCalculator",
+          "data" : { }
+        },
+        "name" : "toyApp.OddCalculator",
+        "sessionID" : "42XuA9VhCHdRPZg-0W8kzHl9V1MvGzKFdbrbKzeI"
+      } ],
+      "generatedInstances" : [ "0436ddf6-596e-464e-8dc8-98803709ff25" ],
+      "destroyedInstances" : [ ],
+      "methodCalls" : [ {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.ApplicationCounter",
+        "methodName" : "isLastNMeanInsertedOdd",
+        "callerInstance" : "9fa870d5-4917-4ee9-9b22-01992703c66b",
+        "parameters" : [ ]
+      }, {
+        "declaringClassName" : "toyApp.OddCalculator",
+        "methodName" : "calcIfOdd",
+        "callerInstance" : "0436ddf6-596e-464e-8dc8-98803709ff25",
+        "parameters" : [ [ 15, 800 ], 3 ]
+      }, {
+        "declaringClassName" : "toyApp.LoggedSessionBean",
+        "methodName" : "isLoggedIn",
+        "callerInstance" : "1b30d360-6597-48c2-bab3-0a85b6988e1f",
+        "parameters" : [ ]
+      } ],
+      "beginTime" : "16:24:01.722679",
+      "endTime" : "16:24:01.740254",
+      "pageId" : "http://localhost:8080/simpleapp/app-simple-home.xhtml"
+    } ]
+  } ],
+  "timeSteps" : [ {
+    "uuid" : "20c1f5cf-7bd1-44f6-b66d-f05f59b63008",
+    "sessionId" : "uVi02JxO6Awe-HA2bkxoEmfB8of4fFjN4d9jvTpv",
+    "requestId" : 0,
+    "livingInstances" : [ {
+      "uuid" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "instance" : {
+        "@class" : "toyApp.LoggedSessionBean",
+        "data" : {
+          "user" : null,
+          "loggedInTest" : false,
+          "loggedIn" : false
+        }
+      },
+      "name" : "toyApp.LoggedSessionBean",
+      "sessionID" : "uVi02JxO6Awe-HA2bkxoEmfB8of4fFjN4d9jvTpv"
+    }, {
+      "uuid" : "2bb1bafb-a6e2-4c49-9e0b-120c09d27c8a",
+      "instance" : {
+        "@class" : "toyApp.ApplicationCounter",
+        "data" : {
+          "meanHistory" : [ 15, 800 ]
+        }
+      },
+      "name" : "toyApp.ApplicationCounter",
+      "sessionID" : "uVi02JxO6Awe-HA2bkxoEmfB8of4fFjN4d9jvTpv"
+    }, {
+      "uuid" : "25541e6b-b8eb-4cd5-b3e4-986a790c98c2",
+      "instance" : {
+        "@class" : "toyApp.OddCalculator",
+        "data" : { }
+      },
+      "name" : "toyApp.OddCalculator",
+      "sessionID" : "uVi02JxO6Awe-HA2bkxoEmfB8of4fFjN4d9jvTpv"
+    } ],
+    "generatedInstances" : [ "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e", "2bb1bafb-a6e2-4c49-9e0b-120c09d27c8a", "25541e6b-b8eb-4cd5-b3e4-986a790c98c2" ],
+    "destroyedInstances" : [ ],
+    "methodCalls" : [ {
+      "declaringClassName" : "toyApp.LoggedSessionBean",
+      "methodName" : "isLoggedIn",
+      "callerInstance" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "parameters" : [ ]
+    }, {
+      "declaringClassName" : "toyApp.LoggedSessionBean",
+      "methodName" : "isLoggedIn",
+      "callerInstance" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "parameters" : [ ]
+    }, {
+      "declaringClassName" : "toyApp.LoggedSessionBean",
+      "methodName" : "isLoggedIn",
+      "callerInstance" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "parameters" : [ ]
+    }, {
+      "declaringClassName" : "toyApp.LoggedSessionBean",
+      "methodName" : "isLoggedIn",
+      "callerInstance" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "parameters" : [ ]
+    }, {
+      "declaringClassName" : "toyApp.LoggedSessionBean",
+      "methodName" : "isLoggedIn",
+      "callerInstance" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "parameters" : [ ]
+    }, {
+      "declaringClassName" : "toyApp.LoggedSessionBean",
+      "methodName" : "isLoggedIn",
+      "callerInstance" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "parameters" : [ ]
+    }, {
+      "declaringClassName" : "toyApp.LoggedSessionBean",
+      "methodName" : "isLoggedIn",
+      "callerInstance" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "parameters" : [ ]
+    }, {
+      "declaringClassName" : "toyApp.ApplicationCounter",
+      "methodName" : "isLastNMeanInsertedOdd",
+      "callerInstance" : "2bb1bafb-a6e2-4c49-9e0b-120c09d27c8a",
+      "parameters" : [ ]
+    }, {
+      "declaringClassName" : "toyApp.OddCalculator",
+      "methodName" : "calcIfOdd",
+      "callerInstance" : "25541e6b-b8eb-4cd5-b3e4-986a790c98c2",
+      "parameters" : [ [ 15, 800 ], 3 ]
+    }, {
+      "declaringClassName" : "toyApp.LoggedSessionBean",
+      "methodName" : "isLoggedIn",
+      "callerInstance" : "7f2c4203-6196-4ab6-9ed6-bbed0689bb0e",
+      "parameters" : [ ]
+    } ],
+    "beginTime" : "16:23:22.091386",
+    "endTime" : "16:23:22.406649",
+    "pageId" : "http://localhost:8080/simpleapp/app-simple-home.xhtml"
+  }, "2ed505f1-114a-4835-be09-a93744a188b7", "8e830907-5c56-49c2-8564-dd751293964b", "7516d8b0-510d-4257-a51c-fabe2dd49def", "267700f6-f1aa-40fd-94a6-d6dfdaef9551", "dd3b8185-886a-48eb-9127-c7a93c1a8ce6", "e8c7d0de-30cf-4f36-ad67-d3567bf44cf7", "25bd60fa-a781-4ba8-91cd-bcf5824b938f", "7d65dedc-4165-4352-8f65-8770bc912b83", "083a4cd8-e142-4fc2-8014-e97581766abb", "fc87a782-3b57-419e-9764-51d997da4a9b", "1fd6584c-b3ea-43a9-81ce-d9b36c065b05", "c3e2d843-be82-4f26-a77d-e09c60ed532c", "e6344362-e11a-49b5-9aa2-520db2901a20", "b14ee668-4de4-4eda-9512-252fc3ff72a0", "2196f9fe-0aba-4b5c-b05d-414eae4e4fc4", "68ea8cb9-1d6a-4b5d-a45a-f759da714f5f", "093441f0-6922-46f2-946a-569892e95fb1", "9848a8e2-f7e6-4e6c-8ee9-0a0935a51199", "de8247dc-945f-46f1-878f-6756d34b7f30", "d793491b-0aba-452f-b3e4-64c4dee8494d", "ce74aaeb-229f-45da-9d2e-ba8e22bf849b", "998a3bbb-34c0-43a3-b943-19b449ee9b81", "70dfac04-99c2-44b2-b3ff-b5cc8be23131" ]
+}

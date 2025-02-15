@@ -1,0 +1,4456 @@
+############################################################
+#################### START OF TIMELINE #####################
+############################################################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.83 MB
+# Non-Heap: 152.31 MB
+#
+##############################
+
+
+#%############### STEP 0 ################
+#% Session: YUa3dRu4VxpKrz2UdtIHU3CGxLDbNwglv16jvMdl
+#%
+#% Page ID: http://localhost:8080/BeansTimeLine/
+#%
+#% Started at: 15:25:38.905558700
+#% Ended at: 15:25:39.179876600
+#%
+#% Net duration: 273.11807 ms
+#% Total duration: 275.79376 ms
+#%
+#% Overhead: 2.6756902 ms (0.9701779 %)
+#%   Request: 1.47586 ms (0.53513175 %)
+#%   Methods: 1.19983 ms (0.4350461 %)
+#%
+#% Method calls: (10)
+#% - toyApp.LoggedSessionBean.isLoggedIn( )
+#% - toyApp.LoggedSessionBean.isLoggedIn( )
+#% - toyApp.LoggedSessionBean.isLoggedIn( )
+#% - toyApp.LoggedSessionBean.isLoggedIn( )
+#% - toyApp.LoggedSessionBean.isLoggedIn( )
+#% - toyApp.LoggedSessionBean.isLoggedIn( )
+#% - toyApp.LoggedSessionBean.isLoggedIn( )
+#% - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+#% - toyApp.OddCalculator.calcIfOdd( [], 3, )
+#% - toyApp.LoggedSessionBean.isLoggedIn( )
+#%
+#% Living instances: (3)
+#% - class toyApp.OddCalculator
+#% - class toyApp.LoggedSessionBean
+#% - class toyApp.ApplicationCounter
+#%
+#% Created instances: (3)
+#% + class toyApp.OddCalculator
+#% + class toyApp.LoggedSessionBean
+#% + class toyApp.ApplicationCounter
+#%
+#% Destroyed instances: (0)
+#%
+#%##################### END OF STEP 0 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.83 MB
+# Non-Heap: 152.97 MB
+#
+##############################
+
+
+################ STEP 1 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:42.293314600
+# Ended at: 15:25:42.322782200
+#
+# Net duration: 29.11067 ms
+# Total duration: 30.27087 ms
+#
+# Overhead: 1.1602 ms (3.8327277 %)
+#   Request: 0.80327 ms (2.6536071 %)
+#   Methods: 0.35693 ms (1.1791203 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.NavigatorController
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+#
+# Created instances: (3)
+# + class toyApp.NavigatorController
+# + class toyApp.LoggedSessionBean
+# + class toyApp.ApplicationCounter
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 1 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.43 MB
+# Non-Heap: 153.21 MB
+#
+##############################
+
+
+################ STEP 2 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:42.336316900
+# Ended at: 15:25:42.362280400
+#
+# Net duration: 25.86007 ms
+# Total duration: 26.66717 ms
+#
+# Overhead: 0.80710006 ms (3.0265682 %)
+#   Request: 0.70367 ms (2.638713 %)
+#   Methods: 0.10343 ms (0.3878552 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 2 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.43 MB
+# Non-Heap: 153.34 MB
+#
+##############################
+
+
+################ STEP 3 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:43.547457300
+# Ended at: 15:25:43.554924700
+#
+# Net duration: 7.30735 ms
+# Total duration: 7.7179103 ms
+#
+# Overhead: 0.41056 ms (5.319575 %)
+#   Request: 0.25051 ms (3.2458267 %)
+#   Methods: 0.16005 ms (2.0737479 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 3 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.43 MB
+# Non-Heap: 153.83 MB
+#
+##############################
+
+
+################ STEP 4 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:43.562424600
+# Ended at: 15:25:43.599924300
+#
+# Net duration: 37.24345 ms
+# Total duration: 37.599678 ms
+#
+# Overhead: 0.35623 ms (0.9474283 %)
+#   Request: 0.09998 ms (0.2659065 %)
+#   Methods: 0.25625 ms (0.6815218 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 4 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.43 MB
+# Non-Heap: 154.05 MB
+#
+##############################
+
+
+################ STEP 5 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:44.612561100
+# Ended at: 15:25:44.633596700
+#
+# Net duration: 20.08181 ms
+# Total duration: 21.1817 ms
+#
+# Overhead: 1.09989 ms (5.1926427 %)
+#   Request: 0.1461 ms (0.6897463 %)
+#   Methods: 0.95379 ms (4.502897 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 5 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.43 MB
+# Non-Heap: 154.17 MB
+#
+##############################
+
+
+################ STEP 6 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:44.642572600
+# Ended at: 15:25:44.654598100
+#
+# Net duration: 11.82196 ms
+# Total duration: 12.57294 ms
+#
+# Overhead: 0.75098 ms (5.9729867 %)
+#   Request: 0.54744 ms (4.354113 %)
+#   Methods: 0.20354 ms (1.6188735 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 6 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.43 MB
+# Non-Heap: 154.28 MB
+#
+##############################
+
+
+################ STEP 7 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:45.799177
+# Ended at: 15:25:45.805613300
+#
+# Net duration: 6.09235 ms
+# Total duration: 6.74108 ms
+#
+# Overhead: 0.64873004 ms (9.623532 %)
+#   Request: 0.30478 ms (4.5212345 %)
+#   Methods: 0.34395 ms (5.1022983 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 7 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.43 MB
+# Non-Heap: 154.40 MB
+#
+##############################
+
+
+################ STEP 8 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:45.813614200
+# Ended at: 15:25:45.833087200
+#
+# Net duration: 18.20569 ms
+# Total duration: 19.62304 ms
+#
+# Overhead: 1.41735 ms (7.222888 %)
+#   Request: 0.15004 ms (0.7646114 %)
+#   Methods: 1.26731 ms (6.458276 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 8 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.43 MB
+# Non-Heap: 154.48 MB
+#
+##############################
+
+
+################ STEP 9 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:46.887204100
+# Ended at: 15:25:46.898203700
+#
+# Net duration: 10.64614 ms
+# Total duration: 11.09971 ms
+#
+# Overhead: 0.45357 ms (4.086323 %)
+#   Request: 0.10011 ms (0.90191543 %)
+#   Methods: 0.35346 ms (3.1844075 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 9 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.67 MB
+# Non-Heap: 154.51 MB
+#
+##############################
+
+
+################ STEP 10 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:46.903699500
+# Ended at: 15:25:46.913700
+#
+# Net duration: 9.850969 ms
+# Total duration: 10.35078 ms
+#
+# Overhead: 0.49980998 ms (4.828718 %)
+#   Request: 0.35028 ms (3.3840928 %)
+#   Methods: 0.14953 ms (1.4446254 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 10 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.67 MB
+# Non-Heap: 154.75 MB
+#
+##############################
+
+
+################ STEP 11 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:47.978750700
+# Ended at: 15:25:47.982748200
+#
+# Net duration: 3.89746 ms
+# Total duration: 4.14771 ms
+#
+# Overhead: 0.25024998 ms (6.0334496 %)
+#   Request: 0.15021 ms (3.6215165 %)
+#   Methods: 0.10004 ms (2.4119334 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 11 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.67 MB
+# Non-Heap: 154.81 MB
+#
+##############################
+
+
+################ STEP 12 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:47.988249400
+# Ended at: 15:25:47.998782800
+#
+# Net duration: 10.32951 ms
+# Total duration: 10.630409 ms
+#
+# Overhead: 0.30089998 ms (2.8305588 %)
+#   Request: 0.09701 ms (0.91257066 %)
+#   Methods: 0.20389 ms (1.9179883 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 12 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.67 MB
+# Non-Heap: 154.94 MB
+#
+##############################
+
+
+################ STEP 13 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:49.014144300
+# Ended at: 15:25:49.028643400
+#
+# Net duration: 13.689179 ms
+# Total duration: 14.64942 ms
+#
+# Overhead: 0.96024 ms (6.5547986 %)
+#   Request: 0.15032 ms (1.0261157 %)
+#   Methods: 0.80992 ms (5.528683 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 13 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.67 MB
+# Non-Heap: 155.02 MB
+#
+##############################
+
+
+################ STEP 14 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:49.040648500
+# Ended at: 15:25:49.046144700
+#
+# Net duration: 5.3927402 ms
+# Total duration: 5.69666 ms
+#
+# Overhead: 0.30392 ms (5.335056 %)
+#   Request: 0.20046 ms (3.518904 %)
+#   Methods: 0.10346 ms (1.8161519 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 14 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.67 MB
+# Non-Heap: 155.20 MB
+#
+##############################
+
+
+################ STEP 15 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:50.225331100
+# Ended at: 15:25:50.233500400
+#
+# Net duration: 7.80377 ms
+# Total duration: 8.56932 ms
+#
+# Overhead: 0.76555 ms (8.933615 %)
+#   Request: 0.40002 ms (4.6680484 %)
+#   Methods: 0.36553 ms (4.2655663 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 15 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.67 MB
+# Non-Heap: 155.30 MB
+#
+##############################
+
+
+################ STEP 16 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:50.239000800
+# Ended at: 15:25:50.259016500
+#
+# Net duration: 18.6619 ms
+# Total duration: 20.16375 ms
+#
+# Overhead: 1.50185 ms (7.448267 %)
+#   Request: 0.14805 ms (0.73423845 %)
+#   Methods: 1.3538 ms (6.71403 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 16 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.67 MB
+# Non-Heap: 155.37 MB
+#
+##############################
+
+
+################ STEP 17 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:51.164332900
+# Ended at: 15:25:51.171835600
+#
+# Net duration: 7.0991697 ms
+# Total duration: 7.7529597 ms
+#
+# Overhead: 0.65379 ms (8.432779 %)
+#   Request: 0.25026 ms (3.2279286 %)
+#   Methods: 0.40353 ms (5.204851 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 17 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.67 MB
+# Non-Heap: 155.43 MB
+#
+##############################
+
+
+################ STEP 18 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:51.179376400
+# Ended at: 15:25:51.184836100
+#
+# Net duration: 5.3095703 ms
+# Total duration: 5.61383 ms
+#
+# Overhead: 0.30426002 ms (5.4198294 %)
+#   Request: 0.15413 ms (2.7455409 %)
+#   Methods: 0.15013 ms (2.6742883 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 18 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.67 MB
+# Non-Heap: 155.48 MB
+#
+##############################
+
+
+################ STEP 19 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:52.031184400
+# Ended at: 15:25:52.035185400
+#
+# Net duration: 3.8511698 ms
+# Total duration: 4.15089 ms
+#
+# Overhead: 0.29972 ms (7.22062 %)
+#   Request: 0.14989 ms (3.611033 %)
+#   Methods: 0.14983 ms (3.6095872 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 19 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.67 MB
+# Non-Heap: 155.53 MB
+#
+##############################
+
+
+################ STEP 20 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:52.042184900
+# Ended at: 15:25:52.047718900
+#
+# Net duration: 5.28405 ms
+# Total duration: 5.68322 ms
+#
+# Overhead: 0.39917 ms (7.023659 %)
+#   Request: 0.14922 ms (2.6256242 %)
+#   Methods: 0.24995 ms (4.398035 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 20 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.67 MB
+# Non-Heap: 155.64 MB
+#
+##############################
+
+
+################ STEP 21 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:52.810281900
+# Ended at: 15:25:52.825548800
+#
+# Net duration: 14.2356 ms
+# Total duration: 15.57116 ms
+#
+# Overhead: 1.33556 ms (8.577138 %)
+#   Request: 0.30426 ms (1.9539969 %)
+#   Methods: 1.0313 ms (6.6231413 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 21 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.67 MB
+# Non-Heap: 155.71 MB
+#
+##############################
+
+
+################ STEP 22 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:52.832549
+# Ended at: 15:25:52.837548800
+#
+# Net duration: 4.8963604 ms
+# Total duration: 5.1463304 ms
+#
+# Overhead: 0.24997 ms (4.857248 %)
+#   Request: 0.14653 ms (2.8472717 %)
+#   Methods: 0.10344 ms (2.009976 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 22 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.72 MB
+# Non-Heap: 155.81 MB
+#
+##############################
+
+
+################ STEP 23 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:53.565351200
+# Ended at: 15:25:53.571887100
+#
+# Net duration: 6.18578 ms
+# Total duration: 6.68231 ms
+#
+# Overhead: 0.49653 ms (7.430514 %)
+#   Request: 0.14641 ms (2.1910088 %)
+#   Methods: 0.35012 ms (5.239506 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 23 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.72 MB
+# Non-Heap: 155.89 MB
+#
+##############################
+
+
+################ STEP 24 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:53.581852900
+# Ended at: 15:25:53.601886100
+#
+# Net duration: 18.776169 ms
+# Total duration: 20.12607 ms
+#
+# Overhead: 1.3499 ms (6.707221 %)
+#   Request: 0.09287 ms (0.46144128 %)
+#   Methods: 1.25703 ms (6.2457795 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 24 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.72 MB
+# Non-Heap: 155.92 MB
+#
+##############################
+
+
+################ STEP 25 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:54.269499300
+# Ended at: 15:25:54.277001900
+#
+# Net duration: 7.1020703 ms
+# Total duration: 7.65594 ms
+#
+# Overhead: 0.55387 ms (7.2345138 %)
+#   Request: 0.15334 ms (2.0028894 %)
+#   Methods: 0.40053 ms (5.231624 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 25 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.72 MB
+# Non-Heap: 155.97 MB
+#
+##############################
+
+
+################ STEP 26 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:54.282501300
+# Ended at: 15:25:54.286533700
+#
+# Net duration: 3.92912 ms
+# Total duration: 4.12575 ms
+#
+# Overhead: 0.19663 ms (4.7659216 %)
+#   Request: 0.09335 ms (2.262619 %)
+#   Methods: 0.10328 ms (2.5033023 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 26 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.72 MB
+# Non-Heap: 156.11 MB
+#
+##############################
+
+
+################ STEP 27 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:54.983760800
+# Ended at: 15:25:54.987233900
+#
+# Net duration: 3.37294 ms
+# Total duration: 3.57562 ms
+#
+# Overhead: 0.20267999 ms (5.6683874 %)
+#   Request: 0.10252 ms (2.8671951 %)
+#   Methods: 0.10016 ms (2.8011928 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 27 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.72 MB
+# Non-Heap: 156.15 MB
+#
+##############################
+
+
+################ STEP 28 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:54.995257900
+# Ended at: 15:25:54.999938100
+#
+# Net duration: 4.4619503 ms
+# Total duration: 4.77896 ms
+#
+# Overhead: 0.31701002 ms (6.6334515 %)
+#   Request: 0.09876 ms (2.0665584 %)
+#   Methods: 0.21825 ms (4.566893 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 28 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.72 MB
+# Non-Heap: 156.25 MB
+#
+##############################
+
+
+################ STEP 29 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:55.717371900
+# Ended at: 15:25:55.729929
+#
+# Net duration: 11.69742 ms
+# Total duration: 12.707211 ms
+#
+# Overhead: 1.00979 ms (7.9465904 %)
+#   Request: 0.15011 ms (1.1812979 %)
+#   Methods: 0.85968 ms (6.7652926 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 29 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.72 MB
+# Non-Heap: 156.29 MB
+#
+##############################
+
+
+################ STEP 30 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:55.736042800
+# Ended at: 15:25:55.742094800
+#
+# Net duration: 5.905 ms
+# Total duration: 6.19889 ms
+#
+# Overhead: 0.29389 ms (4.74101 %)
+#   Request: 0.14689 ms (2.3696177 %)
+#   Methods: 0.147 ms (2.3713923 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 30 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.72 MB
+# Non-Heap: 156.36 MB
+#
+##############################
+
+
+################ STEP 31 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:56.427408
+# Ended at: 15:25:56.434609300
+#
+# Net duration: 6.78127 ms
+# Total duration: 7.4003 ms
+#
+# Overhead: 0.61903 ms (8.364931 %)
+#   Request: 0.199 ms (2.6890802 %)
+#   Methods: 0.42003 ms (5.675851 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 31 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.72 MB
+# Non-Heap: 156.45 MB
+#
+##############################
+
+
+################ STEP 32 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:56.441116700
+# Ended at: 15:25:56.458108500
+#
+# Net duration: 15.7918005 ms
+# Total duration: 17.29258 ms
+#
+# Overhead: 1.5007801 ms (8.678752 %)
+#   Request: 0.30078 ms (1.7393587 %)
+#   Methods: 1.2 ms (6.939393 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 32 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.72 MB
+# Non-Heap: 156.51 MB
+#
+##############################
+
+
+################ STEP 33 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:57.151492
+# Ended at: 15:25:57.158969600
+#
+# Net duration: 7.12985 ms
+# Total duration: 7.62716 ms
+#
+# Overhead: 0.49731 ms (6.5202513 %)
+#   Request: 0.14956 ms (1.9608872 %)
+#   Methods: 0.34775 ms (4.5593643 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 33 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.72 MB
+# Non-Heap: 156.56 MB
+#
+##############################
+
+
+################ STEP 34 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:57.164479
+# Ended at: 15:25:57.168480500
+#
+# Net duration: 3.8516402 ms
+# Total duration: 4.10115 ms
+#
+# Overhead: 0.24950999 ms (6.0839033 %)
+#   Request: 0.09965 ms (2.4298062 %)
+#   Methods: 0.14986 ms (3.654097 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 34 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.72 MB
+# Non-Heap: 156.60 MB
+#
+##############################
+
+
+################ STEP 35 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:25:57.855051700
+# Ended at: 15:25:57.861533300
+#
+# Net duration: 6.3314896 ms
+# Total duration: 6.5794597 ms
+#
+# Overhead: 0.24797001 ms (3.7688508 %)
+#   Request: 0.09786 ms (1.4873562 %)
+#   Methods: 0.15011 ms (2.2814944 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 35 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.75 MB
+# Non-Heap: 156.64 MB
+#
+##############################
+
+
+################ STEP 36 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:57.867044900
+# Ended at: 15:25:57.875001800
+#
+# Net duration: 7.7062902 ms
+# Total duration: 8.16467 ms
+#
+# Overhead: 0.45837998 ms (5.6141887 %)
+#   Request: 0.20777 ms (2.5447447 %)
+#   Methods: 0.25061 ms (3.0694442 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 36 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.75 MB
+# Non-Heap: 156.77 MB
+#
+##############################
+
+
+################ STEP 37 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:25:58.597967500
+# Ended at: 15:25:58.611748300
+#
+# Net duration: 12.97901 ms
+# Total duration: 13.98114 ms
+#
+# Overhead: 1.00213 ms (7.1677275 %)
+#   Request: 0.20034 ms (1.4329304 %)
+#   Methods: 0.80179 ms (5.734797 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 37 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.75 MB
+# Non-Heap: 156.79 MB
+#
+##############################
+
+
+################ STEP 38 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:58.619746
+# Ended at: 15:25:58.624743800
+#
+# Net duration: 4.89401 ms
+# Total duration: 5.14773 ms
+#
+# Overhead: 0.25372 ms (4.9287744 %)
+#   Request: 0.14993 ms (2.912546 %)
+#   Methods: 0.10379 ms (2.0162287 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 38 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.75 MB
+# Non-Heap: 156.82 MB
+#
+##############################
+
+
+################ STEP 39 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:25:59.328873800
+# Ended at: 15:25:59.334739200
+#
+# Net duration: 5.5264897 ms
+# Total duration: 6.0169997 ms
+#
+# Overhead: 0.49051002 ms (8.15207 %)
+#   Request: 0.1516 ms (2.5195282 %)
+#   Methods: 0.33891 ms (5.6325417 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 39 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.75 MB
+# Non-Heap: 156.88 MB
+#
+##############################
+
+
+################ STEP 40 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:25:59.342804700
+# Ended at: 15:25:59.359923400
+#
+# Net duration: 15.8008995 ms
+# Total duration: 17.2734 ms
+#
+# Overhead: 1.4725001 ms (8.524669 %)
+#   Request: 0.1547 ms (0.8955967 %)
+#   Methods: 1.3178 ms (7.6290717 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 40 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.75 MB
+# Non-Heap: 156.96 MB
+#
+##############################
+
+
+################ STEP 41 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:00.080754
+# Ended at: 15:26:00.088078900
+#
+# Net duration: 6.8885703 ms
+# Total duration: 7.52534 ms
+#
+# Overhead: 0.63677 ms (8.461678 %)
+#   Request: 0.20044 ms (2.6635342 %)
+#   Methods: 0.43633 ms (5.7981434 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 41 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.75 MB
+# Non-Heap: 157.00 MB
+#
+##############################
+
+
+################ STEP 42 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:00.095239300
+# Ended at: 15:26:00.099740
+#
+# Net duration: 4.35136 ms
+# Total duration: 4.54991 ms
+#
+# Overhead: 0.19855 ms (4.3638225 %)
+#   Request: 0.04921 ms (1.0815599 %)
+#   Methods: 0.14934 ms (3.2822628 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 42 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.75 MB
+# Non-Heap: 157.02 MB
+#
+##############################
+
+
+################ STEP 43 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:00.787429700
+# Ended at: 15:26:00.791959
+#
+# Net duration: 4.37536 ms
+# Total duration: 4.67922 ms
+#
+# Overhead: 0.30386 ms (6.4938173 %)
+#   Request: 0.14992 ms (3.2039528 %)
+#   Methods: 0.15394 ms (3.2898645 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 43 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.75 MB
+# Non-Heap: 157.07 MB
+#
+##############################
+
+
+################ STEP 44 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:00.796932700
+# Ended at: 15:26:00.801931700
+#
+# Net duration: 4.74905 ms
+# Total duration: 5.09894 ms
+#
+# Overhead: 0.34989 ms (6.862015 %)
+#   Request: 0.09994 ms (1.9600153 %)
+#   Methods: 0.24995 ms (4.9019995 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 44 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.75 MB
+# Non-Heap: 157.16 MB
+#
+##############################
+
+
+################ STEP 45 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:01.514005400
+# Ended at: 15:26:01.526362900
+#
+# Net duration: 11.46451 ms
+# Total duration: 12.45747 ms
+#
+# Overhead: 0.99296 ms (7.9707994 %)
+#   Request: 0.09997 ms (0.8024904 %)
+#   Methods: 0.89299 ms (7.168309 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 45 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.75 MB
+# Non-Heap: 157.17 MB
+#
+##############################
+
+
+################ STEP 46 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:01.531332200
+# Ended at: 15:26:01.534798400
+#
+# Net duration: 3.3505602 ms
+# Total duration: 3.5159502 ms
+#
+# Overhead: 0.16539 ms (4.7039914 %)
+#   Request: 0.04975 ms (1.4149803 %)
+#   Methods: 0.11564 ms (3.289011 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 46 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.75 MB
+# Non-Heap: 157.18 MB
+#
+##############################
+
+
+################ STEP 47 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:02.292803
+# Ended at: 15:26:02.300069700
+#
+# Net duration: 6.9414096 ms
+# Total duration: 7.4699297 ms
+#
+# Overhead: 0.52852 ms (7.0753007 %)
+#   Request: 0.20323 ms (2.7206414 %)
+#   Methods: 0.32529 ms (4.3546596 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 47 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.75 MB
+# Non-Heap: 157.28 MB
+#
+##############################
+
+
+################ STEP 48 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:02.308500600
+# Ended at: 15:26:02.326035400
+#
+# Net duration: 16.283379 ms
+# Total duration: 17.83088 ms
+#
+# Overhead: 1.5475 ms (8.678765 %)
+#   Request: 0.29608 ms (1.6604903 %)
+#   Methods: 1.25142 ms (7.0182743 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 48 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.78 MB
+# Non-Heap: 157.31 MB
+#
+##############################
+
+
+################ STEP 49 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:03.049732
+# Ended at: 15:26:03.056232400
+#
+# Net duration: 6.14692 ms
+# Total duration: 6.80433 ms
+#
+# Overhead: 0.65741 ms (9.661642 %)
+#   Request: 0.30393 ms (4.466715 %)
+#   Methods: 0.35348 ms (5.1949277 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 49 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.78 MB
+# Non-Heap: 157.33 MB
+#
+##############################
+
+
+################ STEP 50 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:03.064231800
+# Ended at: 15:26:03.068266300
+#
+# Net duration: 3.88471 ms
+# Total duration: 4.13443 ms
+#
+# Overhead: 0.24972 ms (6.0400105 %)
+#   Request: 0.09993 ms (2.41702 %)
+#   Methods: 0.14979 ms (3.6229904 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 50 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.78 MB
+# Non-Heap: 157.38 MB
+#
+##############################
+
+
+################ STEP 51 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:04.213807200
+# Ended at: 15:26:04.217807800
+#
+# Net duration: 3.8976898 ms
+# Total duration: 4.15376 ms
+#
+# Overhead: 0.25607002 ms (6.1647763 %)
+#   Request: 0.15316 ms (3.6872618 %)
+#   Methods: 0.10291 ms (2.4775143 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 51 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.78 MB
+# Non-Heap: 157.40 MB
+#
+##############################
+
+
+################ STEP 52 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:04.222807700
+# Ended at: 15:26:04.228937800
+#
+# Net duration: 5.87027 ms
+# Total duration: 6.2286797 ms
+#
+# Overhead: 0.35841 ms (5.754189 %)
+#   Request: 0.09858 ms (1.5826789 %)
+#   Methods: 0.25983 ms (4.17151 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 52 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.78 MB
+# Non-Heap: 157.36 MB
+#
+##############################
+
+
+################ STEP 53 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:05.189011500
+# Ended at: 15:26:05.202506700
+#
+# Net duration: 12.63471 ms
+# Total duration: 13.69101 ms
+#
+# Overhead: 1.0563 ms (7.715282 %)
+#   Request: 0.19581 ms (1.4302086 %)
+#   Methods: 0.86049 ms (6.285073 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 53 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.78 MB
+# Non-Heap: 157.38 MB
+#
+##############################
+
+
+################ STEP 54 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:05.209501
+# Ended at: 15:26:05.213992600
+#
+# Net duration: 4.34059 ms
+# Total duration: 4.59479 ms
+#
+# Overhead: 0.2542 ms (5.5323534 %)
+#   Request: 0.10319 ms (2.2458045 %)
+#   Methods: 0.15101 ms (3.2865486 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 54 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.78 MB
+# Non-Heap: 157.43 MB
+#
+##############################
+
+
+################ STEP 55 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:06.063581400
+# Ended at: 15:26:06.069473300
+#
+# Net duration: 5.54879 ms
+# Total duration: 6.04646 ms
+#
+# Overhead: 0.49767 ms (8.230766 %)
+#   Request: 0.15456 ms (2.5562062 %)
+#   Methods: 0.34311 ms (5.6745596 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 55 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.78 MB
+# Non-Heap: 157.51 MB
+#
+##############################
+
+
+################ STEP 56 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:06.076612400
+# Ended at: 15:26:06.092818600
+#
+# Net duration: 14.93298 ms
+# Total duration: 16.30287 ms
+#
+# Overhead: 1.36989 ms (8.402754 %)
+#   Request: 0.09667 ms (0.5929631 %)
+#   Methods: 1.27322 ms (7.80979 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 56 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.78 MB
+# Non-Heap: 157.57 MB
+#
+##############################
+
+
+################ STEP 57 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:06.993260600
+# Ended at: 15:26:06.999109
+#
+# Net duration: 5.4637403 ms
+# Total duration: 5.99593 ms
+#
+# Overhead: 0.53219 ms (8.8758545 %)
+#   Request: 0.14753 ms (2.4605024 %)
+#   Methods: 0.38466 ms (6.4153514 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 57 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.78 MB
+# Non-Heap: 157.60 MB
+#
+##############################
+
+
+################ STEP 58 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:07.005109700
+# Ended at: 15:26:07.011796600
+#
+# Net duration: 6.56999 ms
+# Total duration: 6.78375 ms
+#
+# Overhead: 0.21376 ms (3.1510596 %)
+#   Request: 0.09685 ms (1.4276764 %)
+#   Methods: 0.11691 ms (1.7233832 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 58 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.78 MB
+# Non-Heap: 157.64 MB
+#
+##############################
+
+
+################ STEP 59 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:08.667670100
+# Ended at: 15:26:08.671688200
+#
+# Net duration: 3.8683598 ms
+# Total duration: 4.1661096 ms
+#
+# Overhead: 0.29775 ms (7.1469555 %)
+#   Request: 0.14801 ms (3.552715 %)
+#   Methods: 0.14974 ms (3.5942407 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 59 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.78 MB
+# Non-Heap: 157.65 MB
+#
+##############################
+
+
+################ STEP 60 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:08.679704500
+# Ended at: 15:26:08.685205400
+#
+# Net duration: 5.2009697 ms
+# Total duration: 5.6015797 ms
+#
+# Overhead: 0.40061 ms (7.1517324 %)
+#   Request: 0.10068 ms (1.7973502 %)
+#   Methods: 0.29993 ms (5.3543825 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 60 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.78 MB
+# Non-Heap: 157.72 MB
+#
+##############################
+
+
+################ STEP 61 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:09.499839300
+# Ended at: 15:26:09.512271
+#
+# Net duration: 11.59538 ms
+# Total duration: 12.52811 ms
+#
+# Overhead: 0.93272996 ms (7.445098 %)
+#   Request: 0.09641 ms (0.7695495 %)
+#   Methods: 0.83632 ms (6.675548 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 61 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.83 MB
+# Non-Heap: 157.77 MB
+#
+##############################
+
+
+################ STEP 62 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:09.517270700
+# Ended at: 15:26:09.522272700
+#
+# Net duration: 4.8983297 ms
+# Total duration: 5.2525697 ms
+#
+# Overhead: 0.35424 ms (6.7441278 %)
+#   Request: 0.25057 ms (4.7704268 %)
+#   Methods: 0.10367 ms (1.9737008 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 62 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.83 MB
+# Non-Heap: 157.85 MB
+#
+##############################
+
+
+################ STEP 63 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:11.473827400
+# Ended at: 15:26:11.482692
+#
+# Net duration: 8.472301 ms
+# Total duration: 9.0611105 ms
+#
+# Overhead: 0.58881 ms (6.49821 %)
+#   Request: 0.19651 ms (2.1687188 %)
+#   Methods: 0.3923 ms (4.3294916 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 63 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.83 MB
+# Non-Heap: 157.90 MB
+#
+##############################
+
+
+################ STEP 64 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:11.489156
+# Ended at: 15:26:11.508152700
+#
+# Net duration: 17.74312 ms
+# Total duration: 19.14687 ms
+#
+# Overhead: 1.40375 ms (7.3314853 %)
+#   Request: 0.15017 ms (0.78430575 %)
+#   Methods: 1.25358 ms (6.5471797 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0, 0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 64 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.83 MB
+# Non-Heap: 157.94 MB
+#
+##############################
+
+
+################ STEP 65 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:12.257246500
+# Ended at: 15:26:12.264243
+#
+# Net duration: 6.59669 ms
+# Total duration: 7.14633 ms
+#
+# Overhead: 0.54964 ms (7.6912208 %)
+#   Request: 0.14983 ms (2.0966005 %)
+#   Methods: 0.39981 ms (5.5946198 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 65 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.83 MB
+# Non-Heap: 157.98 MB
+#
+##############################
+
+
+################ STEP 66 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:12.269743200
+# Ended at: 15:26:12.274751800
+#
+# Net duration: 4.9083304 ms
+# Total duration: 5.1611404 ms
+#
+# Overhead: 0.25281 ms (4.898336 %)
+#   Request: 0.15254 ms (2.9555483 %)
+#   Methods: 0.10027 ms (1.9427876 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 66 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.83 MB
+# Non-Heap: 158.03 MB
+#
+##############################
+
+
+################ STEP 67 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:13.023628
+# Ended at: 15:26:13.027659600
+#
+# Net duration: 3.9185 ms
+# Total duration: 4.17801 ms
+#
+# Overhead: 0.25951 ms (6.2113304 %)
+#   Request: 0.14641 ms (3.5043 %)
+#   Methods: 0.1131 ms (2.7070305 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 67 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.83 MB
+# Non-Heap: 158.03 MB
+#
+##############################
+
+
+################ STEP 68 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:13.033651200
+# Ended at: 15:26:13.038124300
+#
+# Net duration: 4.22311 ms
+# Total duration: 4.6258903 ms
+#
+# Overhead: 0.40278 ms (8.707081 %)
+#   Request: 0.15279 ms (3.3029318 %)
+#   Methods: 0.24999 ms (5.404149 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 68 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.83 MB
+# Non-Heap: 158.06 MB
+#
+##############################
+
+
+################ STEP 69 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:13.802188300
+# Ended at: 15:26:13.815686500
+#
+# Net duration: 12.63694 ms
+# Total duration: 13.59825 ms
+#
+# Overhead: 0.96131 ms (7.0693655 %)
+#   Request: 0.10005 ms (0.73575646 %)
+#   Methods: 0.86126 ms (6.333609 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 69 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.83 MB
+# Non-Heap: 158.07 MB
+#
+##############################
+
+
+################ STEP 70 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:13.822193
+# Ended at: 15:26:13.829188200
+#
+# Net duration: 6.85088 ms
+# Total duration: 7.09532 ms
+#
+# Overhead: 0.24443999 ms (3.4450874 %)
+#   Request: 0.10012 ms (1.411071 %)
+#   Methods: 0.14432 ms (2.0340166 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 70 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.83 MB
+# Non-Heap: 158.15 MB
+#
+##############################
+
+
+################ STEP 71 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:14.616211400
+# Ended at: 15:26:14.621676200
+#
+# Net duration: 5.11164 ms
+# Total duration: 5.61832 ms
+#
+# Overhead: 0.50668 ms (9.018354 %)
+#   Request: 0.15352 ms (2.7324893 %)
+#   Methods: 0.35316 ms (6.285865 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 71 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.83 MB
+# Non-Heap: 158.23 MB
+#
+##############################
+
+
+################ STEP 72 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:14.630677
+# Ended at: 15:26:14.647679600
+#
+# Net duration: 15.748179 ms
+# Total duration: 17.1019 ms
+#
+# Overhead: 1.3537201 ms (7.915612 %)
+#   Request: 0.0993 ms (0.5806372 %)
+#   Methods: 1.25442 ms (7.3349743 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0, 0, 0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 72 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.83 MB
+# Non-Heap: 158.28 MB
+#
+##############################
+
+
+################ STEP 73 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:15.383270100
+# Ended at: 15:26:15.389777800
+#
+# Net duration: 6.10782 ms
+# Total duration: 6.75696 ms
+#
+# Overhead: 0.64914 ms (9.606983 %)
+#   Request: 0.24926 ms (3.688937 %)
+#   Methods: 0.39988 ms (5.918046 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 73 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.83 MB
+# Non-Heap: 158.31 MB
+#
+##############################
+
+
+################ STEP 74 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:15.397270
+# Ended at: 15:26:15.401268800
+#
+# Net duration: 3.84889 ms
+# Total duration: 4.0988503 ms
+#
+# Overhead: 0.24996 ms (6.0982957 %)
+#   Request: 0.10005 ms (2.4409285 %)
+#   Methods: 0.14991 ms (3.657367 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 74 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.84 MB
+# Non-Heap: 158.38 MB
+#
+##############################
+
+
+################ STEP 75 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:16.134320500
+# Ended at: 15:26:16.137811500
+#
+# Net duration: 3.3773 ms
+# Total duration: 3.59641 ms
+#
+# Overhead: 0.21911001 ms (6.0924644 %)
+#   Request: 0.10541 ms (2.9309785 %)
+#   Methods: 0.1137 ms (3.1614861 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 75 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.84 MB
+# Non-Heap: 158.40 MB
+#
+##############################
+
+
+################ STEP 76 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:16.146639600
+# Ended at: 15:26:16.152117
+#
+# Net duration: 5.21755 ms
+# Total duration: 5.5317097 ms
+#
+# Overhead: 0.31416 ms (5.6792564 %)
+#   Request: 0.05431 ms (0.9817941 %)
+#   Methods: 0.25985 ms (4.6974626 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 76 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.84 MB
+# Non-Heap: 158.44 MB
+#
+##############################
+
+
+################ STEP 77 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:16.928043100
+# Ended at: 15:26:16.939777300
+#
+# Net duration: 10.827889 ms
+# Total duration: 11.98024 ms
+#
+# Overhead: 1.1523501 ms (9.618756 %)
+#   Request: 0.24604 ms (2.053715 %)
+#   Methods: 0.90631 ms (7.565041 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 77 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.84 MB
+# Non-Heap: 158.47 MB
+#
+##############################
+
+
+################ STEP 78 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:16.947277300
+# Ended at: 15:26:16.951277400
+#
+# Net duration: 3.8956602 ms
+# Total duration: 4.0001 ms
+#
+# Overhead: 0.10444 ms (2.6109347 %)
+#   Request: 0.0 ms (0.0 %)
+#   Methods: 0.10444 ms (2.6109347 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 78 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.84 MB
+# Non-Heap: 158.50 MB
+#
+##############################
+
+
+################ STEP 79 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:17.720289500
+# Ended at: 15:26:17.725944400
+#
+# Net duration: 5.2902603 ms
+# Total duration: 5.75503 ms
+#
+# Overhead: 0.46477 ms (8.0758915 %)
+#   Request: 0.10013 ms (1.7398692 %)
+#   Methods: 0.36464 ms (6.3360224 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 79 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.84 MB
+# Non-Heap: 158.52 MB
+#
+##############################
+
+
+################ STEP 80 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:17.731951300
+# Ended at: 15:26:17.748170700
+#
+# Net duration: 14.9736805 ms
+# Total duration: 16.3194 ms
+#
+# Overhead: 1.34572 ms (8.246137 %)
+#   Request: 0.1 ms (0.6127676 %)
+#   Methods: 1.24572 ms (7.6333685 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 80 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.84 MB
+# Non-Heap: 158.57 MB
+#
+##############################
+
+
+################ STEP 81 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:18.510655200
+# Ended at: 15:26:18.516341
+#
+# Net duration: 5.36765 ms
+# Total duration: 5.78962 ms
+#
+# Overhead: 0.42197 ms (7.2883887 %)
+#   Request: 0.10382 ms (1.7932093 %)
+#   Methods: 0.31815 ms (5.4951797 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 81 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.84 MB
+# Non-Heap: 158.60 MB
+#
+##############################
+
+
+################ STEP 82 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:18.522345900
+# Ended at: 15:26:18.530341600
+#
+# Net duration: 7.84974 ms
+# Total duration: 8.09603 ms
+#
+# Overhead: 0.24629 ms (3.0421083 %)
+#   Request: 0.10033 ms (1.2392493 %)
+#   Methods: 0.14596 ms (1.802859 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 82 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.84 MB
+# Non-Heap: 158.62 MB
+#
+##############################
+
+
+################ STEP 83 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:19.488273
+# Ended at: 15:26:19.493236500
+#
+# Net duration: 4.853 ms
+# Total duration: 5.06696 ms
+#
+# Overhead: 0.21395999 ms (4.22265 %)
+#   Request: 0.10346 ms (2.0418553 %)
+#   Methods: 0.1105 ms (2.1807947 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 83 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.84 MB
+# Non-Heap: 158.65 MB
+#
+##############################
+
+
+################ STEP 84 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:19.499770300
+# Ended at: 15:26:19.505270800
+#
+# Net duration: 5.2456303 ms
+# Total duration: 5.60043 ms
+#
+# Overhead: 0.3548 ms (6.335228 %)
+#   Request: 0.09993 ms (1.7843273 %)
+#   Methods: 0.25487 ms (4.5509005 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 84 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.84 MB
+# Non-Heap: 158.75 MB
+#
+##############################
+
+
+################ STEP 85 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:20.271679
+# Ended at: 15:26:20.285887100
+#
+# Net duration: 13.3659 ms
+# Total duration: 14.40812 ms
+#
+# Overhead: 1.04222 ms (7.23356 %)
+#   Request: 0.20002 ms (1.388245 %)
+#   Methods: 0.8422 ms (5.8453145 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 85 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 12.84 MB
+# Non-Heap: 158.78 MB
+#
+##############################
+
+
+################ STEP 86 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:20.293889700
+# Ended at: 15:26:20.296921800
+#
+# Net duration: 2.92871 ms
+# Total duration: 3.1266 ms
+#
+# Overhead: 0.19789 ms (6.3292394 %)
+#   Request: 0.0945 ms (3.0224524 %)
+#   Methods: 0.10339 ms (3.306787 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 86 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.84 MB
+# Non-Heap: 158.81 MB
+#
+##############################
+
+
+################ STEP 87 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:21.148035600
+# Ended at: 15:26:21.154026700
+#
+# Net duration: 5.64205 ms
+# Total duration: 6.09409 ms
+#
+# Overhead: 0.45204 ms (7.417678 %)
+#   Request: 0.10299 ms (1.689998 %)
+#   Methods: 0.34905 ms (5.72768 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 87 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.84 MB
+# Non-Heap: 158.85 MB
+#
+##############################
+
+
+################ STEP 88 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:21.162025100
+# Ended at: 15:26:21.179526500
+#
+# Net duration: 16.25252 ms
+# Total duration: 17.6013 ms
+#
+# Overhead: 1.34878 ms (7.662957 %)
+#   Request: 0.0999 ms (0.5675717 %)
+#   Methods: 1.24888 ms (7.0953856 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 88 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.87 MB
+# Non-Heap: 158.87 MB
+#
+##############################
+
+
+################ STEP 89 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:22.337290600
+# Ended at: 15:26:22.343623600
+#
+# Net duration: 5.94776 ms
+# Total duration: 6.58571 ms
+#
+# Overhead: 0.63795 ms (9.686883 %)
+#   Request: 0.25271 ms (3.8372478 %)
+#   Methods: 0.38524 ms (5.8496346 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 89 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 7.87 MB
+# Non-Heap: 158.87 MB
+#
+##############################
+
+
+################ STEP 90 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:22.349505900
+# Ended at: 15:26:22.353032500
+#
+# Net duration: 3.37427 ms
+# Total duration: 3.6241 ms
+#
+# Overhead: 0.24983 ms (6.8935738 %)
+#   Request: 0.0975 ms (2.690323 %)
+#   Methods: 0.15233 ms (4.2032504 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 90 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.87 MB
+# Non-Heap: 158.89 MB
+#
+##############################
+
+
+################ STEP 91 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:23.149650700
+# Ended at: 15:26:23.155107300
+#
+# Net duration: 5.35321 ms
+# Total duration: 5.5627103 ms
+#
+# Overhead: 0.2095 ms (3.7661498 %)
+#   Request: 0.10611 ms (1.9075234 %)
+#   Methods: 0.10339 ms (1.8586264 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 91 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 8.87 MB
+# Non-Heap: 158.90 MB
+#
+##############################
+
+
+################ STEP 92 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:23.166145100
+# Ended at: 15:26:23.172105300
+#
+# Net duration: 5.7142797 ms
+# Total duration: 6.11466 ms
+#
+# Overhead: 0.40038002 ms (6.5478706 %)
+#   Request: 0.15446 ms (2.5260603 %)
+#   Methods: 0.24592 ms (4.02181 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 92 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.87 MB
+# Non-Heap: 158.91 MB
+#
+##############################
+
+
+################ STEP 93 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:24.032269400
+# Ended at: 15:26:24.043733100
+#
+# Net duration: 10.565801 ms
+# Total duration: 11.56756 ms
+#
+# Overhead: 1.00176 ms (8.66008 %)
+#   Request: 0.10386 ms (0.8978557 %)
+#   Methods: 0.8979 ms (7.762224 %)
+#
+# Method calls: (7)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.confirm( )
+# - toyApp.MeanCalculator.CalcMean( 0.0, 0.0, )
+# - toyApp.ApplicationCounter.insertMeanListItem( 0.0, )
+# - toyApp.NavigatorController.navigate( app-simple-mean-confirm, )
+#
+# Living instances: (5)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+# - class toyApp.MeanCalculator
+#
+# Created instances: (2)
+# + class toyApp.NavigatorController
+# + class toyApp.MeanCalculator
+#
+# Destroyed instances: (2)
+# x class toyApp.NavigatorController
+# x class toyApp.MeanCalculator
+#
+###################### END OF STEP 93 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 9.87 MB
+# Non-Heap: 158.94 MB
+#
+##############################
+
+
+################ STEP 94 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:24.049258400
+# Ended at: 15:26:24.051770500
+#
+# Net duration: 2.411 ms
+# Total duration: 2.61446 ms
+#
+# Overhead: 0.20346001 ms (7.7821045 %)
+#   Request: 0.10236 ms (3.915149 %)
+#   Methods: 0.1011 ms (3.8669553 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getResult( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 94 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 10.87 MB
+# Non-Heap: 158.99 MB
+#
+##############################
+
+
+################ STEP 95 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-confirm.xhtml
+#
+# Started at: 15:26:25.316986200
+# Ended at: 15:26:25.323988100
+#
+# Net duration: 6.65182 ms
+# Total duration: 7.20164 ms
+#
+# Overhead: 0.54982 ms (7.63465 %)
+#   Request: 0.19974 ms (2.7735348 %)
+#   Methods: 0.35008 ms (4.861115 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndCloseConv( app-simple-home, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.end( )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (2)
+# x class toyApp.MeanController
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 95 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.87 MB
+# Non-Heap: 159.02 MB
+#
+##############################
+
+
+################ STEP 96 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:25.329810100
+# Ended at: 15:26:25.345898800
+#
+# Net duration: 14.796049 ms
+# Total duration: 16.188889 ms
+#
+# Overhead: 1.39284 ms (8.60368 %)
+#   Request: 0.10019 ms (0.6188813 %)
+#   Methods: 1.29265 ms (7.9847975 %)
+#
+# Method calls: (10)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.ApplicationCounter.isLastNMeanInsertedOdd( )
+# - toyApp.OddCalculator.calcIfOdd( [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 3, )
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.OddCalculator
+#
+# Created instances: (1)
+# + class toyApp.OddCalculator
+#
+# Destroyed instances: (1)
+# x class toyApp.OddCalculator
+#
+###################### END OF STEP 96 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.87 MB
+# Non-Heap: 159.04 MB
+#
+##############################
+
+
+################ STEP 97 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-home.xhtml
+#
+# Started at: 15:26:26.154856400
+# Ended at: 15:26:26.162390500
+#
+# Net duration: 7.18069 ms
+# Total duration: 7.6343203 ms
+#
+# Overhead: 0.45363 ms (5.9419827 %)
+#   Request: 0.10022 ms (1.3127561 %)
+#   Methods: 0.35341 ms (4.6292267 %)
+#
+# Method calls: (3)
+# - toyApp.NavigatorController.navigateAndBeginConv( app-simple-mean, )
+# - javax.enterprise.context.Conversation.isTransient( )
+# - javax.enterprise.context.Conversation.begin( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 97 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.87 MB
+# Non-Heap: 159.06 MB
+#
+##############################
+
+
+################ STEP 98 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:26.169885900
+# Ended at: 15:26:26.175359900
+#
+# Net duration: 5.3228 ms
+# Total duration: 5.72711 ms
+#
+# Overhead: 0.40431 ms (7.0595818 %)
+#   Request: 0.25311 ms (4.4195065 %)
+#   Methods: 0.1512 ms (2.640075 %)
+#
+# Method calls: (1)
+# - toyApp.MeanController.getFirstOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (1)
+# + class toyApp.MeanController
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 98 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 11.87 MB
+# Non-Heap: 159.17 MB
+#
+##############################
+
+
+################ STEP 99 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean.xhtml
+#
+# Started at: 15:26:32.465425
+# Ended at: 15:26:32.470425700
+#
+# Net duration: 4.85075 ms
+# Total duration: 5.05071 ms
+#
+# Overhead: 0.19996 ms (3.959047 %)
+#   Request: 0.05001 ms (0.9901578 %)
+#   Methods: 0.14995 ms (2.9688892 %)
+#
+# Method calls: (1)
+# - toyApp.NavigatorController.navigate( app-simple-mean-second, )
+#
+# Living instances: (4)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+# - class toyApp.NavigatorController
+#
+# Created instances: (1)
+# + class toyApp.NavigatorController
+#
+# Destroyed instances: (1)
+# x class toyApp.NavigatorController
+#
+###################### END OF STEP 99 #######################
+
+
+########### MEMORY ###########
+#
+#     RAM occupation
+# Heap: 13.87 MB
+# Non-Heap: 159.20 MB
+#
+##############################
+
+
+################ STEP 100 ################
+# Session: ojLo9R-a61hEZU0hGayZTytoi-4mGolhU40DX5NS
+#
+# Page ID: http://localhost:8080/BeansTimeLine/app-simple-mean-second.xhtml
+#
+# Started at: 15:26:32.482389400
+# Ended at: 15:26:32.486412900
+#
+# Net duration: 3.82088 ms
+# Total duration: 4.17128 ms
+#
+# Overhead: 0.3504 ms (8.400299 %)
+#   Request: 0.14778 ms (3.5427976 %)
+#   Methods: 0.20262 ms (4.857502 %)
+#
+# Method calls: (2)
+# - toyApp.LoggedSessionBean.isLoggedIn( )
+# - toyApp.MeanController.getSecondOperator( )
+#
+# Living instances: (3)
+# - class toyApp.LoggedSessionBean
+# - class toyApp.ApplicationCounter
+# - class toyApp.MeanController
+#
+# Created instances: (0)
+#
+# Destroyed instances: (0)
+#
+###################### END OF STEP 100 #######################
+
+
+############################################################
+###################### END OF TIMELINE #####################
+############################################################
+
+
+########### TIMELINE SUMMARY ###########
+#
+# Average living instances: 3.49
+# Average method calls: 3.43
+#
+# Average net duration: 8.55395 ms
+# Average total duration: 9.15046 ms
+#
+# Average overhead: 0.59651023 ms (6.5189095 %)
+#   Request: 0.1657584 ms (1.811476 %)
+#   Methods: 0.4307518 ms (4.707433 %)
+#
+########################################
+
+
+########### MEMORY SUMMARY ###########
+#
+#     RAM average
+# Heap: 10.66 MB
+# Non-Heap: 156.99 MB
+#
+#     RAM st.deviation
+# Heap: 2.05 MB
+# Non-Heap: 1.63 MB
+#
+######################################
+
+

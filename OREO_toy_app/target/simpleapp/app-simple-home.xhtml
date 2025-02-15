@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<ui:composition template="layout/app-simple-template.xhtml">
+	<ui:define name="body">
+
+		<link rel="stylesheet" href="css/FM-index.css" />
+
+		<center>
+
+			<div style="float: right" id='topdiv'>
+				<h:form rendered="#{!loggedSessionBean.loggedIn}" id="loginForm">
+					<h:commandButton id="LoginBtn" styleClass="btn btn-success"
+						action="#{navigatorController.navigate('app-simple-login')}"
+						value="Login" style="margin-left: 20px;">
+					</h:commandButton>
+				</h:form>
+				<h:form rendered="#{loggedSessionBean.loggedIn}" id="logoutForm">
+
+					<h:commandButton id="LogoutBtn" styleClass="btn btn-warning"
+						action="#{navigatorController.navigate('app-simple-login')}"
+						value="Logout" style="margin-left: 20px;">
+					</h:commandButton>
+
+				</h:form>
+			</div>
+
+			<div id="summation">
+				<h3>The summation of the last N mean value inserted is
+					#{applicationCounter.isLastNMeanInsertedOdd()}</h3>
+			</div>
+
+			<div id="logText">
+			<h3>logged? #{loggedSessionBean.loggedIn}</h3>
+			</div>
+			
+			<h:form id="ConvForm">
+				<h:commandButton id="MeanBtn" styleClass="btn btn-success"
+					action="#{navigatorController.navigateAndBeginConv('app-simple-mean')}"
+					value="Calc Mean" style="margin-left: 20px;">
+				</h:commandButton>
+			</h:form>
+
+
+		</center>
+
+
+	</ui:define>
+</ui:composition>
+
+</html>
