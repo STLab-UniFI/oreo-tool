@@ -73,12 +73,89 @@ A sample of timeline output obtained using the [BooksComplete](https://github.co
 
 In order to provide an exemplary application, this repository includes Toy App, a simple web application.
 
-You can find the source code at the path: `/toy_app_code/`
+You can find the source code at the path: `/toy_app_code/`.
+An instrumented version of Toy App with docker is make available at path `/OREO_toy_app/`.
 
-To build and run the project you will need Maven and an application server.
-In particular, during the experiment we used Maven version 3.8.7 and WildFly version 26.1.0.Final as application server.
+To launch Toy App with OREO, launch the following command from the `/OREO_toy_app/` directory:
+```
+docker compose up
+```
+Toy App will be usable from a browser at the address: `http://localhost:8080/simpleapp/`
 
-To launch the experiments with OREO, please follow the instructions outlined above.
+After using the application, stop Docker (ctrl+c if run from the terminal), the resulting timeline in JSON format will be automatically saved in `/OREO_toy_app/data/`.
+
+## Experiment Replication
+
+To replicate the experiment, follow these steps:
+
+#### Getting Started
+
+1. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Navigate to the `scripts` directory:
+   ```bash
+   cd scripts
+   ```
+
+---
+
+### Replicate Results of Step-Wise Failure Manifestation Analysis (Table 1)
+
+Execute the following command from the `scripts` directory:
+```bash
+java -jar table1.jar
+```
+
+By default, it will analyze the `toyapp_tl.json` timeline located in `/scripts/data`. If you want to run the experiment with a different timeline, you can do so using the following command:
+
+```bash
+java -jar table1.jar "path/to/timeline"
+```
+
+---
+
+### Replicate Results of Step-Wise Error Activation Analysis (Table 2)
+
+Execute the following command from the `scripts` directory:
+```bash
+java -jar table2.jar
+```
+
+By default, it will analyze the `toyapp_tl.json` timeline located in `/scripts/data`. If you want to run the experiment with a different timeline, you can do so using the following command:
+
+```bash
+java -jar table2.jar "path/to/timeline"
+```
+
+---
+
+### Replicate Results of Overhead Metrics (Table 3)
+
+1. **Memory Overhead**  
+   Run the following command:
+   ```bash
+   python3 memory.py
+   ```
+
+2. **Delay Overhead**  
+   - For the Toy App:
+     ```bash
+     python3 prof.py toyapp-timeline.txt
+     ```
+   - For the Book App:
+     ```bash
+     python3 prof.py books-timeline.txt
+     ```
+---
+
+### Notes:
+- Ensure all files (`table1.jar`, `table2.jar`, `memory.py`, `prof.py`, and timeline files) are present in the `scripts` directory.
+- The Empedocle timeline is not present because it is a closed-source project.
+- To ensure the reproducibility of results, all provided scripts are based on the timelines extracted and used in the experimentation. However, the scripts work on any timeline extracted by OREO. Please follow the Quick Start section for more details.
+
 
 ## Repository Structure
 This is the root directory of the repository. The directory is structured as follows:
@@ -89,6 +166,10 @@ This is the root directory of the repository. The directory is structured as fol
      |--- oreo_code/                            Source code of OREO
      |
      |--- toy_app_code/                         Source code of Toy App
+     |
+     |--- OREO_toy_app/                         Source code of Toy App instrumented with OREO
+     |
+     |--- scripts/                         	Scripts to reproduce our results
      |
      |--- data/                                 Sample timelines
             |
