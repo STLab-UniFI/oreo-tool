@@ -84,6 +84,9 @@ Toy App will be usable from a browser at the address: `http://localhost:8080/sim
 
 After using the application, stop Docker (ctrl+c if run from the terminal), the resulting timeline in JSON format will be automatically saved in `/OREO_toy_app/data/`.
 
+**Note**: With some operating systems, the WildFly image might not correctly load certain libraries on the first startup, resulting in some errors. To resolve the issue, simply stop and restart the container.
+
+
 ## Experiment Replication
 
 To replicate the experiment, follow these steps:
