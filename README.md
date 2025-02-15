@@ -90,14 +90,14 @@ To replicate the experiment, follow these steps:
 
 #### Getting Started
 
-1. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Navigate to the `scripts` directory:
+1. Navigate to the `scripts` directory:
    ```bash
    cd scripts
+   ```
+
+2. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
    ```
 
 ---
